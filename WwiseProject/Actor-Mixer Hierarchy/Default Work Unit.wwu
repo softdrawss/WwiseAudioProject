@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="VoiceOver" ID="{6AF1D598-DC03-4D45-8F2A-6C638CBF6F15}" ShortID="552015249">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Wwizard" ID="{51F65D57-481D-449D-8ED1-F7581B0E4243}" ShortID="921897623"/>
+						<Folder Name="Blacksmith" ID="{E6D8071F-5F3A-4266-B131-BDCF4D7BCAAA}" ShortID="439808735"/>
+					</ChildrenList>
+				</ActorMixer>
+				<Folder Name="UI" ID="{5B0D0696-61F4-4A10-BF84-F292F47641D5}" ShortID="481840990">
+					<ChildrenList>
+						<Folder Name="Menu" ID="{C415CB68-47EF-40AE-A412-D8A8D5E32FC0}" ShortID="1062250269"/>
+						<Folder Name="Inventory" ID="{83E1FFAA-9D1F-4746-9C0F-D15EF69D6475}" ShortID="231209484"/>
+						<Folder Name="Quest Roll" ID="{B5EF833D-8E53-4FC1-840C-48F1C5959426}" ShortID="578128659"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

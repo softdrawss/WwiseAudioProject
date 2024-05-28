@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="CombatLevel" ID="{EA595E7C-33BA-4C84-A501-E0C64DF98323}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="5"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_EvilHead_MovementSpeed" ID="{B6021641-6C35-4E40-8B6B-18EEB0E93760}"/>
+				<GameParameter Name="Enemy_Music_EvilCrawler" ID="{0D88B7F1-2628-4AB0-8A63-B275B46B9FE9}"/>
+				<GameParameter Name="Enemy_Music_EvilHead" ID="{C378D12F-9AAC-41E6-9A67-B72E8B272071}"/>
+				<GameParameter Name="Enemy_Music_EviSpitPlant" ID="{2761F237-7FF9-4950-A1D9-DCC07CFADBBD}"/>
+				<GameParameter Name="InMenu_LowPass" ID="{4B14CAE1-682E-4015-930C-0E4385F9046E}"/>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{EF214753-6ED8-4544-A5C2-864F177E72BB}"/>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{480F9F1A-C8A4-40E4-9AB5-048B24FE7FB5}"/>
+				<GameParameter Name="Player_Health" ID="{98C3093C-7554-4E5A-849C-9F919E6CD491}"/>
+				<GameParameter Name="Player_MovementSpeed" ID="{C11E4BD2-5A41-411F-8C0F-077DC539E4F4}"/>
+				<GameParameter Name="Time_of_Day" ID="{20E8B52D-4B1C-4227-AFE2-A3CE52A85173}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="12"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Magic_ChargeIntensity" ID="{18C8CA62-0C12-4103-8FD4-071D521B2D82}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -1,6 +1,312 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="General" ID="{69EB7010-2DE2-4F0A-AC5E-9F07C991779D}" ShortID="817861801">
+					<ChildrenList>
+						<Event Name="Stop_All" ID="{371DC68F-CF7E-4318-AD89-0AD54CD52C81}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{945787D0-1CFB-4B4A-8AF3-686FFDCEC9D1}" ShortID="911596803">
+					<ChildrenList>
+						<Folder Name="Enemies" ID="{07A07A28-A8B2-4DEA-9F98-10AB667DA7CD}" ShortID="156713568">
+							<ChildrenList>
+								<Folder Name="Evil Spit Plant" ID="{EBFA37A3-A16E-4127-8421-8DACBBC6A73E}" ShortID="865306066">
+									<ChildrenList>
+										<Event Name="Enemy_EvilSpitPlant_ShootBullet" ID="{9A8022D0-8070-4338-B9F8-B06F8F3A49B2}"/>
+										<Event Name="Enemy_EvilSpitPlant_Death_Headfall" ID="{FFFD9B30-69CE-4DB6-A267-4F407A40A81C}"/>
+										<Event Name="Enemy_EvilSpitPlant_Charge" ID="{3FFD6022-F95F-4157-A16D-B0525D7AC243}"/>
+										<Event Name="Enemy_EvilSpitPlant_ShootLoop_Stop" ID="{D9CE15D3-8236-4A64-B291-F75A20A98AD5}"/>
+										<Event Name="Enemy_EvilSpitPlant_Bullet_NoImpact" ID="{6E161882-8ED4-42FB-87F0-2E8CDFFD98DD}"/>
+										<Event Name="Enemy_EvilSpitPlant_ShootLoop_Play" ID="{88859B20-6F87-436D-B034-A82703B806D6}"/>
+										<Event Name="Enemy_EvilSpitPlant_Death" ID="{6D367031-6A88-4FAB-B4AD-AB400C96C8CA}"/>
+										<Event Name="Enemy_EvilSpitPlant_Hurt" ID="{7D1754D9-3601-4BAD-B0A8-C04EB7C0CD7C}"/>
+										<Event Name="Enemy_EvilSpitPlant_Bullet_Impact" ID="{A9CC9D97-3820-4B6C-9987-2E3EF98DBE46}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Evil Crawler" ID="{72F46E2A-9C42-4450-904B-B527FFC8DF0E}" ShortID="840491004">
+									<ChildrenList>
+										<Event Name="Enemy_EvilCrawler_Hurt" ID="{031DBEC2-9053-404A-BF89-5155BE0A4324}"/>
+										<Event Name="Enemy_EvilCrawler_Death" ID="{40942E49-FFDE-4019-A97D-14D3509EB0FF}"/>
+										<Event Name="Enemy_EvilCrawler_Movement" ID="{E0016BEB-97D2-4CDC-8ACA-333179A8ADB1}"/>
+										<Event Name="Enemy_EvilCrawler_Eat" ID="{02BA9D22-2A8E-404F-8630-287BFEDF730F}"/>
+										<Event Name="Enemy_EvilCrawler_Explode" ID="{490BBACF-D3D2-441B-9D19-DA78CD175308}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Evil Head" ID="{58AFBBA0-D79D-47F9-93FA-30370C7E76BE}" ShortID="987491952">
+									<ChildrenList>
+										<Event Name="Enemy_EvilHead_Charge" ID="{5EFF5B7A-6481-4BCA-AE8E-A13782E40862}"/>
+										<Event Name="Enemy_EvilHead_Hover_Play" ID="{6F82CFAB-2972-46A8-8417-537C880647D1}"/>
+										<Event Name="Enemy_EvilHead_Telegraph" ID="{1B85942B-2A19-4771-A8F1-31DEBA4E960E}"/>
+										<Event Name="Enemy_EvilHead_Hurt" ID="{7FE226EA-E4FC-46BF-8386-AD00FDF53CE6}"/>
+										<Event Name="Enemy_EvilHead_Death" ID="{220CF37A-FF04-49D6-9CEB-3603D14FACFA}"/>
+										<Event Name="Enemy_EvilHead_Bite" ID="{1161C849-A0DC-4031-9B32-B8D4202E903F}"/>
+										<Event Name="Enemy_EvilHead_SpawnerDestroy" ID="{FAC9A3CF-ADED-4B80-A413-FDE56DE1696B}"/>
+										<Event Name="Enemy_EvilHead_Hover_Stop" ID="{6596A596-4967-4F26-A4F0-8C1DAC5A239A}"/>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="UI" ID="{935277E3-8501-4E46-8D2B-FA1A5008F090}" ShortID="548704542">
+							<ChildrenList>
+								<Folder Name="Menu" ID="{418F98CF-0DB0-41EE-92C2-C05B80486188}" ShortID="655086927">
+									<ChildrenList>
+										<Folder Name="Button" ID="{9DA41F36-1F71-4C70-B073-FC2AFE69240C}" ShortID="301122446">
+											<ChildrenList>
+												<Event Name="UI_Button_Enter" ID="{D8455E68-D88C-4EBF-A5AB-75C8581CA2A1}"/>
+												<Event Name="UI_Button_Down" ID="{EE8C64F8-7884-4EAE-A7AA-D1725932F9C5}"/>
+												<Event Name="UI_Button_Exit" ID="{7D54ADE7-EE27-4C78-B477-D0B67054495C}"/>
+												<Event Name="UI_Button_Up" ID="{84EE1ACC-7AA4-4E6D-8CB4-AE46C877C4E9}"/>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Menu" ID="{3624783A-4FE4-46E8-A247-3A25BF49C750}" ShortID="1038146525">
+											<ChildrenList>
+												<Event Name="UI_Menu_Pause" ID="{23457C48-4699-4B40-9D71-7CBCB6EB0D85}"/>
+												<Event Name="UI_Menu_Resume" ID="{EAE89F8F-8DDB-4292-9207-B960D2E80B6F}"/>
+												<Event Name="UI_Menu_Select" ID="{B0CA8896-A644-4A70-A89E-8725DCBF3584}"/>
+												<Event Name="UI_Menu_Teleport" ID="{38E29777-0FBD-4462-A3F9-1A5CFC11A93F}"/>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Inventory" ID="{EE608FFB-A0BF-4FB0-A52E-F349890CA546}" ShortID="954566092">
+									<ChildrenList>
+										<Event Name="UI_Inventory_Open" ID="{25279CA7-1913-495A-8D61-A039E17AEAFB}"/>
+										<Event Name="UI_Inventory_Close" ID="{A811063B-2A36-4628-A7F5-22CA20A6532E}"/>
+										<Event Name="UI_Inventory_Roll" ID="{1E7C0BD9-0AED-49DD-95A1-B9D67890BC6B}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Quest Roll" ID="{58CC4A6F-26DB-494A-A505-734CAC1ABDE8}" ShortID="164616085">
+									<ChildrenList>
+										<Folder Name="Quest Roll" ID="{D85EA77B-6694-4B14-B701-E4585D396D2C}" ShortID="462063408">
+											<ChildrenList>
+												<Event Name="UI_QuestRoll_Show" ID="{469DA182-C82E-4622-9114-9EAB057752F4}"/>
+												<Event Name="UI_QuestRoll_Open" ID="{6ED09825-5732-4D46-8FBE-10423ED1A12F}"/>
+												<Event Name="UI_QuestRoll_Close" ID="{387254B7-36ED-48D5-A5BF-AFBBF7CF7BB9}"/>
+												<Event Name="UI_QuestRoll_Hide" ID="{84ADB5CE-BDC8-46DB-A31C-B80121AA46C1}"/>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Quest Complete" ID="{06375C38-A3E3-4CEE-A024-3A43DF311840}" ShortID="558052280">
+											<ChildrenList>
+												<Event Name="Quest_Complete" ID="{D4D32CA2-F494-46AD-A5C9-080DCBDD4CFE}"/>
+												<Event Name="Quest_CompleteCollection" ID="{1E52DDCC-FD0B-4C3B-89AC-E25812CF3BCB}"/>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Core" ID="{9B407730-0FEC-4260-AA04-40B3C1BD8048}" ShortID="713029776">
+							<ChildrenList>
+								<Folder Name="Magic" ID="{E5E655A6-74B4-4B58-97A2-F93C0EA34ED4}" ShortID="359449361">
+									<ChildrenList>
+										<Event Name="Magic_Blast" ID="{D37827C8-ED6D-4AFC-87A6-9676E12EF8EB}"/>
+										<Event Name="Magic_Blast_Impact" ID="{D070886A-100A-464B-9FAC-34EAED6A184B}"/>
+										<Event Name="Magic_Charge" ID="{C8E65BAE-D497-4911-AB80-BFE66E1FCCA7}"/>
+										<Event Name="Magic_Stop" ID="{22E46113-706C-4D5C-A1F3-CBB1DE68DA73}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Object" ID="{0C2EB3EE-9609-4054-BE0D-7773CA09A96B}" ShortID="670401550">
+									<ChildrenList>
+										<Event Name="Object_Rune_Charge_Play" ID="{05221E23-19D7-4D73-8211-D798904E6473}"/>
+										<Event Name="Object_Rune_Charge_Stop" ID="{AD184E2A-8F72-4072-8FA0-64AE811F52A2}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Destruction" ID="{E763F96D-3044-491A-8F8E-FFC9952583C5}" ShortID="184638965">
+									<ChildrenList>
+										<Event Name="Destruction_Core_ShieldBreak" ID="{0CF367FD-F9F0-42DB-9F0B-06C69E51CBBA}"/>
+										<Event Name="Destruction_Core_Explosion" ID="{D797DCA2-868E-45B6-91D5-CE0CC378A3A3}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Ambient" ID="{6BD24CDD-9739-45DB-873E-885FD938CA7B}" ShortID="60573351">
+									<ChildrenList>
+										<Event Name="Ambient_Core_HorribleSound" ID="{0145D2B4-C3E7-4A19-91E3-ACE3715D4ACF}"/>
+										<Event Name="Ambient_Core_FinalReveal" ID="{01E0CD4C-8357-4328-A51F-48E9AB0FB690}"/>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Destruction" ID="{F8D63E50-14C7-4A58-BD4E-66AFC28E1E18}" ShortID="315042474">
+							<ChildrenList>
+								<Event Name="Destruction_Container" ID="{7E56AA59-B14D-423C-B8EA-FFDABECD3FCC}"/>
+								<Event Name="Destruction_Crystal_Destroy" ID="{E4E72D5C-649C-48BE-A200-993E39491615}"/>
+								<Event Name="Destruction_Rock_Destroy" ID="{D008FC02-2407-4078-B83C-FE3CC185D529}"/>
+								<Event Name="Destruction_VolcanicBoulder_Impact" ID="{87660C5A-4F08-4F05-8B70-713680746771}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Player" ID="{0176F716-34EF-4945-8A8D-EFE46AFE4C3B}" ShortID="471104761">
+							<ChildrenList>
+								<Event Name="Player_Footstep" ID="{0B34DE90-8060-46C9-B1AB-4E1AECD45059}"/>
+								<Event Name="Pickup_ItemType" ID="{C42158C5-F704-4E85-A8A3-833F73F1257C}"/>
+								<Event Name="Pickup_Coins" ID="{D462367B-A8AE-4FEC-BA2A-4291D667AFED}"/>
+								<Event Name="Player_WeaponImpact" ID="{30C5C27F-0EE8-423C-AA99-97EE99D7E187}"/>
+								<Event Name="Player_WeaponSwing" ID="{6632294B-120E-4E2E-AA70-100DA7751DD2}"/>
+								<Event Name="Player_Health" ID="{AB299C04-AED9-4659-B61D-5A33099F09D6}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Ambient" ID="{C3182230-839A-4E4D-AB1D-3E691D50009B}" ShortID="231430773">
+							<ChildrenList>
+								<Folder Name="3D Emitters" ID="{B0729883-5F71-4324-A0F7-A077D7181C8B}" ShortID="546005964">
+									<ChildrenList>
+										<Folder Name="Continuous" ID="{87D3D4B9-EAB1-4DFC-8F1A-C69627DB5329}" ShortID="802072168">
+											<ChildrenList>
+												<Event Name="Ambient_Campfire_Play" ID="{9BF2E0B7-39FF-4605-8385-4D58C00A86AB}"/>
+												<Event Name="Ambient_Campfire_Stop" ID="{BB1B9910-95B0-40D9-9DAA-E3E497EF9658}"/>
+												<Event Name="Ambient_Crystal_Hum" ID="{DE427565-AA3E-4C6E-B1AA-03B5056B0B68}"/>
+												<Event Name="Ambient_Lava" ID="{87772747-055B-4777-A610-0734E4493527}"/>
+												<Event Name="Ambient_River" ID="{F49229F4-2839-4221-AF68-ECC4532BF333}"/>
+												<Event Name="Ambient_Torch" ID="{75BC63B7-1B99-4D12-B721-B54E59C2CCF9}"/>
+												<Event Name="Ambient_Waterfall" ID="{ACCAB1D0-66FC-4BED-B95B-AA77B72122A8}"/>
+												<Event Name="Ambient_Windmill" ID="{CD67491D-5249-4216-ADE7-E10AFB4070E2}"/>
+												<Event Name="Door_DLCdoor_Open_Play" ID="{F5123E50-E65C-4791-81E9-4C878E93EAD8}"/>
+												<Event Name="Door_DLCdoor_Open_Stop" ID="{2919F874-9472-4B49-BB37-B560CA793846}"/>
+												<Event Name="Music_ArcadeMachine_Play" ID="{EE574713-8703-4B61-A4D4-B587E3FA4407}"/>
+												<Event Name="Music_ArcadeMachine_Stop" ID="{1CFDCEE7-CDDD-4E00-9D29-059D63912969}"/>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="One-Shot" ID="{821242C0-0345-481D-9623-447820888826}" ShortID="502601343">
+											<ChildrenList>
+												<Event Name="Ambient_WaterDrop" ID="{33C2DB0C-C719-410B-A69F-99A67EEBD2A3}"/>
+												<Event Name="Door_TempleDoor_Open_Play" ID="{7518A071-B97C-46F8-919E-0E99AA28D650}"/>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Event Name="Ambient_Region_Cave" ID="{3D757382-80B7-403B-8AE6-89FB125E3FDB}"/>
+								<Event Name="Ambient_Region_Desert" ID="{05A9C0E5-D7D1-4AF2-A32C-8DB3F0471437}"/>
+								<Event Name="Ambient_Region_Dungeon" ID="{5B811C74-2F59-48AD-9912-5F713D525E88}"/>
+								<Event Name="Ambient_Region_PineForest" ID="{E57FC4DF-025D-440F-B92B-B787DD447011}"/>
+								<Event Name="Ambient_Region_Village" ID="{F9F0DA3A-AA1E-44D8-A606-964AFDC9F561}"/>
+								<Event Name="Ambient_Region_Woodlands" ID="{1D98B068-0FDA-4670-9E32-3ABB7FC3397A}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{C5376F0E-F512-4C29-B5E8-7D8FBB87D2BE}" ShortID="830243385">
+					<ChildrenList>
+						<Event Name="Music_TitleScreen" ID="{CE8F767A-6672-4807-A7E5-1A29696BC193}"/>
+						<Event Name="Music_Credits" ID="{0F993D02-25E8-4D77-93BC-26B22661926E}"/>
+						<Event Name="Music_Region" ID="{7B8CAF97-135D-4A99-A0B1-EF4347A1EF14}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Voice Over" ID="{D16C92BB-F563-4ED9-AA90-E9D016C96CDF}" ShortID="922871293">
+					<ChildrenList>
+						<Folder Name="Adventuress" ID="{2B632D49-4CD5-4487-B2FF-D1C27FED4FE6}" ShortID="374401619">
+							<ChildrenList>
+								<Event Name="Player_Hurt_Vox" ID="{F07EBC99-CDCD-4D40-A04D-379736F27F21}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Wwizard" ID="{9F84476E-235E-437B-9FE0-E74A8A656735}" ShortID="120146109">
+							<ChildrenList>
+								<Folder Name="Q1" ID="{5FDF40B1-ADBF-439E-B807-7700B6C088D8}" ShortID="955365886">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q1_3" ID="{5D3FF5E7-02AF-4AE7-85BA-6B5D272C0B74}"/>
+										<Event Name="Wwizard_DialogueLine_Q1_2" ID="{9EF5E1E1-613F-4CAC-9575-6273EC475018}"/>
+										<Event Name="Wwizard_DialogueLine_Q1_1" ID="{18D30F25-B6C7-4421-983A-CAF69F284615}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Q2" ID="{8FFB3E5C-8F98-41CA-8165-AD73106FB6E0}" ShortID="949574372">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q2_1" ID="{4F6FA6BD-FD6B-42EC-AC1A-512295CF7571}"/>
+										<Event Name="Wwizard_DialogueLine_Q2_2" ID="{C406623D-E25A-45B9-B398-5D3C8A095120}"/>
+										<Event Name="Wwizard_DialogueLine_Q2_3" ID="{FC3EE407-D717-41CB-9853-F9360DD9A73E}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Q3" ID="{42462018-42DB-4494-9B47-32FAA4C48277}" ShortID="119683023">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q3a_01" ID="{C48BFF0A-26CB-46C4-9512-2FBE498C703E}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_02" ID="{80178194-EA12-46CE-945E-5C3C285945EB}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_03" ID="{C73FFB3B-1219-47AA-AB03-275F2F727588}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_04" ID="{E8D7E014-EF96-4233-A93B-B0CEF66EFFFF}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_05" ID="{065AF803-BE62-42A7-9DB1-E4DCBF6D55A6}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_06" ID="{EF2B1C8D-686D-450E-9FFE-A3B6EBC978BF}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_07" ID="{9F9A3EF0-F0D6-422B-8BEF-B315504BC484}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_08" ID="{EFB7744B-CB0D-4617-8BC8-5383CE8D528E}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_09" ID="{EC69616F-66D2-419F-AD5B-9FAC8A14706F}"/>
+										<Event Name="Wwizard_DialogueLine_Q3a_10" ID="{F41A3A0A-62EB-4774-812F-0730A003A897}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Q4" ID="{2A420D3A-6C67-40F9-83B0-80DF85855486}" ShortID="974305857">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q4a_01" ID="{64FEF935-FDB8-4966-902D-2402732A52B5}"/>
+										<Event Name="Wwizard_DialogueLine_Q4a_02" ID="{030AD864-B91F-4D4E-8C69-8A357B369DB7}"/>
+										<Event Name="Wwizard_DialogueLine_Q4a_03" ID="{7AAA48CF-165A-4C7D-AB88-5B84F96A996D}"/>
+										<Event Name="Wwizard_DialogueLine_Q4a_04" ID="{CBDAE97E-E220-44C3-B2E9-0FE55BD71A79}"/>
+										<Event Name="Wwizard_DialogueLine_Q4a_05" ID="{58CCCB66-677F-4DF1-9413-3424686D2A22}"/>
+										<Event Name="Wwizard_DialogueLine_Q4a_06" ID="{EE04AC06-F955-46AF-AFDA-7F9160357DE6}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Q5" ID="{9536FD87-C68F-49A7-A287-2E98EA3E2C2A}" ShortID="946078389">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q5a_01" ID="{0A54821D-6DD8-41DE-93F8-2C6C79D7EE32}"/>
+										<Event Name="Wwizard_DialogueLine_Q5a_02" ID="{447989E2-4D70-4746-B962-93990E732FA5}"/>
+										<Event Name="Wwizard_DialogueLine_Q5a_03" ID="{B6B87ADC-2DE8-4C51-B059-2453265FE4B4}"/>
+										<Event Name="Wwizard_DialogueLine_Q5a_04" ID="{BE68D0DD-B950-4B36-8188-F73AC66E4BE5}"/>
+										<Event Name="Wwizard_DialogueLine_Q5a_05" ID="{94F3B34F-1D0E-4D96-8195-47366F983FC5}"/>
+										<Event Name="Wwizard_DialogueLine_Q5a_06" ID="{A9183490-B267-40B7-89B3-1404C787E219}"/>
+										<Event Name="Wwizard_DialogueLine_Q5a_07" ID="{51E6C2AE-E7A4-4CA0-ACF1-6B19314D3654}"/>
+										<Event Name="Wwizard_DialogueLine_Q5b_01" ID="{54EB735E-B283-469A-AF2C-41540CD739B1}"/>
+										<Event Name="Wwizard_DialogueLine_Q5b_02" ID="{79F6043A-0785-4F4B-8D12-E8EBA028BB2C}"/>
+										<Event Name="Wwizard_DialogueLine_Q5b_03" ID="{75941E11-CA7F-4A5A-BCB5-4E6805D2525B}"/>
+										<Event Name="Wwizard_DialogueLine_Q5b_04" ID="{89345FD2-8FB8-45CC-8B18-B1D977462164}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Q6" ID="{35BC8177-2051-4654-9C75-2F0E368228E9}" ShortID="1064000140">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q6_01" ID="{6C0579B7-7B81-4346-BF7A-81EB06B3D377}"/>
+										<Event Name="Wwizard_DialogueLine_Q6_02" ID="{42BACF85-DB94-4A86-87B9-578B3FFDD687}"/>
+										<Event Name="Wwizard_DialogueLine_Q6_03" ID="{1242E51F-4149-4566-B1BC-1AE0C44CFFCF}"/>
+										<Event Name="Wwizard_DialogueLine_Q6_04" ID="{8DEB9743-CA62-46B1-B499-F6F2F900F448}"/>
+										<Event Name="Wwizard_DialogueLine_Q6_05" ID="{CA27701B-4533-4E18-B23D-75486423040F}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Q7" ID="{54083C31-045A-4CF9-8997-B965D92C60D2}" ShortID="803466116">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q7_01" ID="{415B6969-2DF7-4B70-9390-BA459FE52A19}"/>
+										<Event Name="Wwizard_DialogueLine_Q7_02" ID="{1826A212-A9FC-4218-AC1A-546EB396C68B}"/>
+										<Event Name="Wwizard_DialogueLine_Q7_03" ID="{F07EE51B-FF81-4B2D-95C1-0FF4AC13A2C7}"/>
+										<Event Name="Wwizard_DialogueLine_Q7_04" ID="{170A4FC4-CA99-45B6-9020-1D9E4489E31C}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Q8" ID="{01C9C470-F764-4743-90F4-C4DA9515F3FB}" ShortID="300488063">
+									<ChildrenList>
+										<Event Name="Wwizard_DialogueLine_Q8a_01" ID="{5B43E68F-994A-477B-A528-3C404E90EC71}"/>
+										<Event Name="Wwizard_DialogueLine_Q8a_02" ID="{295CF17F-8064-4E9D-9B4E-92DC9DAAC8D5}"/>
+										<Event Name="Wwizard_DialogueLine_Q8a_03" ID="{26687443-B060-4177-A76C-969D48B20A30}"/>
+										<Event Name="Wwizard_DialogueLine_Q8a_04" ID="{4BEA235B-85FB-46A0-95E9-1894E791A587}"/>
+										<Event Name="Wwizard_DialogueLine_Q8a_05" ID="{A0231DC5-319E-425E-993C-614F8A7353BD}"/>
+										<Event Name="Wwizard_DialogueLine_Q8a_06" ID="{438812A9-41B2-4C4C-9285-D502B4A3A394}"/>
+										<Event Name="Wwizard_DialogueLine_Q8b_01" ID="{6C467B2E-4FD3-49F8-BC2A-AADCCD29F916}"/>
+										<Event Name="Wwizard_DialogueLine_Q8b_02" ID="{43224DAB-C1FE-4C11-B102-FC262EFEBF0A}"/>
+										<Event Name="Wwizard_DialogueLine_Q8b_03" ID="{DE7659A9-7392-4D3B-A158-F80B0D6D4576}"/>
+										<Event Name="Wwizard_DialogueLine_Q8b_04" ID="{D1D2CBFC-4FB0-4369-86E9-6E7A205774FF}"/>
+										<Event Name="Wwizard_DialogueLine_Q8b_05" ID="{930FDA9B-4D8A-4E42-9E62-846C7E24EE20}"/>
+										<Event Name="Wwizard_DialogueLine_Q8b_06" ID="{A21F7FBF-C11D-4546-A965-04A71E5D3CE9}"/>
+										<Event Name="Wwizard_DialogueLine_Q8b_07" ID="{F08DE099-6C5E-46FB-9F34-DBC893612A8F}"/>
+										<Event Name="Wwizard_DialogueLine_Q8c_01" ID="{8594C4CC-604E-4E13-BB4C-B2CE89A31A79}"/>
+										<Event Name="Wwizard_DialogueLine_Q8c_02" ID="{966A1D9D-B9BD-4597-9196-17A2A0B873A0}"/>
+										<Event Name="Wwizard_DialogueLine_Q8c_03" ID="{37B55047-54B7-46AF-916D-7277FFDFD8FB}"/>
+										<Event Name="Wwizard_DialogueLine_Q8d_01" ID="{08FDB764-3A3E-42C5-9375-921780FFF516}"/>
+										<Event Name="Wwizard_DialogueLine_Q8d_02" ID="{6373F2B3-6F83-42BB-838F-757FEC69E447}"/>
+										<Event Name="Wwizard_DialogueLine_Q8d_03" ID="{CDD35658-1A58-4EAB-951E-573E7921BF2E}"/>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Blacksmith" ID="{4CE81316-D8EC-497B-AD7F-6C3557E6EC6B}" ShortID="410574814">
+							<ChildrenList>
+								<Event Name="Blacksmith_DialogueLine_Q3b_01" ID="{ECED2123-81D9-484C-BFAC-9D899623D61E}"/>
+								<Event Name="Blacksmith_DialogueLine_Q3b_02" ID="{FF925B2D-6FA3-4790-BB94-44FE7A155C38}"/>
+								<Event Name="Blacksmith_DialogueLine_Q3b_03" ID="{7127DB4A-2AE0-4E43-9661-29C3CE541AF1}"/>
+								<Event Name="Blacksmith_DialogueLine_Q3b_04" ID="{E3083747-AFE5-450D-9ECB-83C858D8645F}"/>
+								<Event Name="Blacksmith_DialogueLine_Q3b_05" ID="{7D29B995-2A60-43CE-B9BE-D9FB15776E81}"/>
+								<Event Name="Blacksmith_DialogueLine_Q4b_01" ID="{E3F71DFF-825F-4BB6-8BC1-FB98CB8EBCBA}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

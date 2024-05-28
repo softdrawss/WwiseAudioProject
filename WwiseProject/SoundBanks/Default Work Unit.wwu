@@ -1,6 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A1243315-79FF-42B5-BCFE-2690B9F3D830}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{A1243315-79FF-42B5-BCFE-2690B9F3D830}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A1243315-79FF-42B5-BCFE-2690B9F3D830}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Region" ID="{5E10C4D5-65D4-4DC3-B812-21C460793C2B}" ShortID="147680304">
+					<ChildrenList>
+						<SoundBank Name="Cave" ID="{2ABDD763-CF5F-43C3-982E-AD31F618CB6A}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Desert" ID="{94FC68CD-3840-4F5C-A094-F7C6E7D8772A}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Dungeon" ID="{D477A520-0B1E-4E2E-9212-0E2AF51C7838}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="PineForest" ID="{FB12F34A-D696-4F34-B5BE-3380F03C3DF4}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Village" ID="{67DD4D3F-68B2-4B86-96C1-B828980FEB2E}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Woodlands" ID="{B7920B79-0287-4730-A282-ADF92E2F7468}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="General" ID="{3F2844B3-A7C2-41B5-9C0E-39F95455E6C6}" ShortID="364002308">
+					<ChildrenList>
+						<SoundBank Name="Credits" ID="{2E81DF82-1C27-47E5-BD9A-DF8A26301187}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="TitleScreen" ID="{F6EF6335-7986-40CE-9789-49D99C822C84}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="General" ID="{97EB60AF-5F7C-46E5-9FDA-0F3BF941E171}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Context" ID="{D0F84FC2-A7E5-469D-8389-32F99F04AF9E}" ShortID="133031024">
+					<ChildrenList>
+						<SoundBank Name="Quest_01" ID="{16449C42-4CEF-4774-94E6-0EA1A8C0D1AC}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Quest_02" ID="{667C5076-FCFC-4969-84A0-7EE4652A16D9}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Quest_03" ID="{BB57E3A5-1FB7-4528-81C6-2F506E319C27}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Quest_04" ID="{B1F98816-1421-4135-9212-2FCD3717A5C1}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Quest_05" ID="{FC2CAEA6-B3AD-4247-82DA-091C3EF71A70}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Quest_06" ID="{B160C410-78AF-431F-99D7-CFC34F945AC7}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Quest_07" ID="{16FF7895-A633-42D2-84EF-FB372CDFDD3C}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Quest_08" ID="{8B03D93E-4A00-4A9E-9D07-CAC5688B5028}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
