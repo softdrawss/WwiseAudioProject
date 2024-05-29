@@ -31,7 +31,87 @@
 						<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{B981560C-380D-4C16-B168-A293E7ED3B88}"/>
 						<AuxBus Name="Dungeon_PathToForge" ID="{15BE28DE-9730-47EA-B5CA-D427CC16B961}"/>
 						<AuxBus Name="Dungeon_RoadToCore" ID="{4658A615-8E2A-4582-99C7-AC73EC0CE4B8}"/>
+						<Bus Name="Music Audio Bus" ID="{C9304553-7E92-4DAB-BC84-B46B5496BA46}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{DCC0967E-3DF7-4A11-A2B5-F6EAF5D6B868}" ShortID="693414242">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="MenuSlider_Music_Volume" ID="{480F9F1A-C8A4-40E4-9AB5-048B24FE7FB5}" WorkUnitID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{CC060B9D-3580-4EDF-BA37-1AA925C6DA32}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{F3538414-94FB-47F5-844C-613CA668D1CE}" ShortID="5295914">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MenuSlider_Master_Volume" ID="{EF214753-6ED8-4544-A5C2-864F177E72BB}" WorkUnitID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A4DD078C-316D-4922-983C-DFD27A956B2C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -49,6 +49,45 @@
 						<Switch Name="Walk" ID="{93512BCF-35AE-471C-95D7-FC78ECD92C92}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="DayOrNight" ID="{F44C98A6-AD3E-4B8D-B4C2-3FA422B48385}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{8114F560-4054-4529-8D76-1A3B2A655225}"/>
+						<Switch Name="Night" ID="{3E1FDFDB-B986-4F2F-BACB-254C324B22F4}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Time_of_Day" ID="{20E8B52D-4B1C-4227-AFE2-A3CE52A85173}"/>
+						<Curve Name="" ID="{681D2A67-8939-4A5B-AE48-55D0FB4652C0}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>8</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
