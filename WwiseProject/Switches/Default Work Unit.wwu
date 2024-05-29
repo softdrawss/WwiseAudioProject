@@ -20,6 +20,7 @@
 						<Switch Name="Stone" ID="{3200E897-496C-465C-9FA8-18130AA617D0}"/>
 						<Switch Name="Water" ID="{E891609B-B2AB-47AF-AD42-FF2E5AA69F35}"/>
 						<Switch Name="Wood" ID="{3AF4E46C-2E13-42A5-9304-75F4A730CAB0}"/>
+						<Switch Name="Rubble" ID="{0D995FAE-C166-4217-9379-26427B4988D6}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Player_Pickup_ItemType" ID="{6A89A3D6-048F-4FA2-A2D5-AABB8DF137AC}">
@@ -40,6 +41,12 @@
 						<Switch Name="Hammer" ID="{4110E909-138A-4917-B982-E16BA9ECA2CD}"/>
 						<Switch Name="PickAxe" ID="{5EDFEF1B-FC3E-4E5C-A7C2-D619A58A1DA7}"/>
 						<Switch Name="Sword" ID="{98400A98-A9D6-4FB6-B0D1-F1DF0D7CB182}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{04AC9877-D83E-46AE-BF02-523523AB1C54}">
+					<ChildrenList>
+						<Switch Name="Run" ID="{C9CAD0CE-AF26-44AF-B874-D4A2E37793B4}"/>
+						<Switch Name="Walk" ID="{93512BCF-35AE-471C-95D7-FC78ECD92C92}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

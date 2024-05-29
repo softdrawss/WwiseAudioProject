@@ -9,6 +9,29 @@
 							<ObjectRef Name="System" ID="{F3889FA6-9E36-4374-9F18-B8288E927616}" WorkUnitID="{8BD65060-3914-4E22-9729-F8AD688F46BA}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Cave" ID="{6C9DE802-6106-4F04-BE6F-5FDF48A460BA}"/>
+						<AuxBus Name="CaveEntrance" ID="{2D532C76-BE2F-4F30-A7C5-F13794ECD786}"/>
+						<AuxBus Name="Desert" ID="{CF86A814-8710-4774-A283-C13374B19873}"/>
+						<AuxBus Name="RoadToDesert" ID="{BB22FC17-C546-45F2-B01C-12748F186BDE}"/>
+						<AuxBus Name="PineForest" ID="{B250D8BE-2D53-435B-8B27-3976C9756234}"/>
+						<AuxBus Name="PineForest_Hut" ID="{E2F949A7-18D3-48D6-AA7E-30796B580EC5}"/>
+						<AuxBus Name="RoadToPineForest" ID="{5385F6E5-165F-484D-9C6F-5A3ABB96CA4B}"/>
+						<AuxBus Name="Training" ID="{E5E9317F-FCC4-485D-82DE-5E159249561B}"/>
+						<AuxBus Name="Village" ID="{768A1B9E-4544-477D-9D22-CD4826F04027}"/>
+						<AuxBus Name="WwizardHouse" ID="{8C5D229D-CD58-45A4-91B8-96D3F39C315E}"/>
+						<AuxBus Name="RoadToWoodlands" ID="{9B06C6C8-14F8-433D-9D1A-27A96C3F2DFB}"/>
+						<AuxBus Name="Woodlands" ID="{7B32E4C5-2A79-4825-B8E5-9491BE674799}"/>
+						<AuxBus Name="Dungeon_Core" ID="{870D9D87-9F32-46E5-8C3C-926905B9C9D8}"/>
+						<AuxBus Name="Dungeon_Entrance" ID="{AE5CC761-8BE1-4C3F-B8B3-14BFCBA0FD7D}"/>
+						<AuxBus Name="Dungeon_Forge" ID="{9A424169-7C58-4531-AF16-15DF1AD35408}"/>
+						<AuxBus Name="Dungeon_Library" ID="{622C90DC-253C-42C4-8AAC-DEBC2923B24D}"/>
+						<AuxBus Name="Dungeon_Library_Statue" ID="{31CB2388-0E0D-4B0B-B94A-3B7A72A2C1E0}"/>
+						<AuxBus Name="Dungeon_MezzanineRoom" ID="{B6CF3542-0F2C-4D22-9941-D5ED4B8659A8}"/>
+						<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{B981560C-380D-4C16-B168-A293E7ED3B88}"/>
+						<AuxBus Name="Dungeon_PathToForge" ID="{15BE28DE-9730-47EA-B5CA-D427CC16B961}"/>
+						<AuxBus Name="Dungeon_RoadToCore" ID="{4658A615-8E2A-4582-99C7-AC73EC0CE4B8}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

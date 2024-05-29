@@ -201,16 +201,76 @@
 							<ChildrenList>
 								<Folder Name="Q1" ID="{5FDF40B1-ADBF-439E-B807-7700B6C088D8}" ShortID="955365886">
 									<ChildrenList>
-										<Event Name="Wwizard_DialogueLine_Q1_3" ID="{5D3FF5E7-02AF-4AE7-85BA-6B5D272C0B74}"/>
-										<Event Name="Wwizard_DialogueLine_Q1_2" ID="{9EF5E1E1-613F-4CAC-9575-6273EC475018}"/>
-										<Event Name="Wwizard_DialogueLine_Q1_1" ID="{18D30F25-B6C7-4421-983A-CAF69F284615}"/>
+										<Event Name="Wwizard_DialogueLine_Q1_3" ID="{5D3FF5E7-02AF-4AE7-85BA-6B5D272C0B74}">
+											<ChildrenList>
+												<Action Name="" ID="{E6BAEBEA-E4F7-4DDC-B492-A1798B58F561}" ShortID="571206884">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wwizard_VoiceLine_Q1_3" ID="{92C9BD23-0F90-43E1-8CD1-C835200DDB86}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Wwizard_DialogueLine_Q1_2" ID="{9EF5E1E1-613F-4CAC-9575-6273EC475018}">
+											<ChildrenList>
+												<Action Name="" ID="{89625C1A-0D0B-4858-8EBB-22844138D89F}" ShortID="127660830">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wwizard_VoiceLine_Q1_2" ID="{1F606252-5914-4A19-A457-A299D8326F92}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Wwizard_DialogueLine_Q1_1" ID="{18D30F25-B6C7-4421-983A-CAF69F284615}">
+											<ChildrenList>
+												<Action Name="" ID="{9F1C31D1-E784-4053-BF64-D9E89FE3BCD0}" ShortID="658420018">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wwizard_VoiceLine_Q1_1" ID="{AEA513D3-246D-4301-B0FB-EC8B2A44DDCF}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Q2" ID="{8FFB3E5C-8F98-41CA-8165-AD73106FB6E0}" ShortID="949574372">
 									<ChildrenList>
-										<Event Name="Wwizard_DialogueLine_Q2_1" ID="{4F6FA6BD-FD6B-42EC-AC1A-512295CF7571}"/>
-										<Event Name="Wwizard_DialogueLine_Q2_2" ID="{C406623D-E25A-45B9-B398-5D3C8A095120}"/>
-										<Event Name="Wwizard_DialogueLine_Q2_3" ID="{FC3EE407-D717-41CB-9853-F9360DD9A73E}"/>
+										<Event Name="Wwizard_DialogueLine_Q2_1" ID="{4F6FA6BD-FD6B-42EC-AC1A-512295CF7571}">
+											<ChildrenList>
+												<Action Name="" ID="{C6171A55-D421-454B-A320-C2B82BAD1DC1}" ShortID="781564771">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wwizard_VoiceLine_Q2_1" ID="{3DCFE864-C595-4000-9611-CA9399CA7412}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Wwizard_DialogueLine_Q2_2" ID="{C406623D-E25A-45B9-B398-5D3C8A095120}">
+											<ChildrenList>
+												<Action Name="" ID="{1752A4D1-2F9E-4583-8D0B-6F8B664812A1}" ShortID="87383048">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wwizard_VoiceLine_Q2_2" ID="{CEF3C620-0A0A-43D9-A624-A5094D6FB79E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Wwizard_DialogueLine_Q2_3" ID="{FC3EE407-D717-41CB-9853-F9360DD9A73E}">
+											<ChildrenList>
+												<Action Name="" ID="{7BD6F9BB-D409-4A51-A25B-BEACAF16F580}" ShortID="880068370">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Wwizard_VoiceLine_Q2_3" ID="{E5E70954-4EF3-40DF-960F-2AF6D837C3CF}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Q3" ID="{42462018-42DB-4494-9B47-32FAA4C48277}" ShortID="119683023">

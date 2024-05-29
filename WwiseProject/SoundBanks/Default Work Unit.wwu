@@ -6,32 +6,51 @@
 				<Folder Name="Region" ID="{5E10C4D5-65D4-4DC3-B812-21C460793C2B}" ShortID="147680304">
 					<ChildrenList>
 						<SoundBank Name="Cave" ID="{2ABDD763-CF5F-43C3-982E-AD31F618CB6A}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_Cave" ID="{3D757382-80B7-403B-8AE6-89FB125E3FDB}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_WaterDrop" ID="{33C2DB0C-C719-410B-A69F-99A67EEBD2A3}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Destruction_Crystal_Destroy" ID="{E4E72D5C-649C-48BE-A200-993E39491615}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Desert" ID="{94FC68CD-3840-4F5C-A094-F7C6E7D8772A}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_Desert" ID="{05A9C0E5-D7D1-4AF2-A32C-8DB3F0471437}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Destruction_VolcanicBoulder_Impact" ID="{87660C5A-4F08-4F05-8B70-713680746771}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Dungeon" ID="{D477A520-0B1E-4E2E-9212-0E2AF51C7838}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Destruction_Rock_Destroy" ID="{D008FC02-2407-4078-B83C-FE3CC185D529}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Region_Dungeon" ID="{5B811C74-2F59-48AD-9912-5F713D525E88}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="PineForest" ID="{FB12F34A-D696-4F34-B5BE-3380F03C3DF4}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_PineForest" ID="{E57FC4DF-025D-440F-B92B-B787DD447011}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Village" ID="{67DD4D3F-68B2-4B86-96C1-B828980FEB2E}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Windmill" ID="{CD67491D-5249-4216-ADE7-E10AFB4070E2}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_River" ID="{F49229F4-2839-4221-AF68-ECC4532BF333}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Region_Village" ID="{F9F0DA3A-AA1E-44D8-A606-964AFDC9F561}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Woodlands" ID="{B7920B79-0287-4730-A282-ADF92E2F7468}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_Woodlands" ID="{1D98B068-0FDA-4670-9E32-3ABB7FC3397A}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Waterfall" ID="{ACCAB1D0-66FC-4BED-B95B-AA77B72122A8}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
@@ -40,7 +59,10 @@
 				<Folder Name="General" ID="{3F2844B3-A7C2-41B5-9C0E-39F95455E6C6}" ShortID="364002308">
 					<ChildrenList>
 						<SoundBank Name="Credits" ID="{2E81DF82-1C27-47E5-BD9A-DF8A26301187}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Music_TitleScreen" ID="{CE8F767A-6672-4807-A7E5-1A29696BC193}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Music_Credits" ID="{0F993D02-25E8-4D77-93BC-26B22661926E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
@@ -59,42 +81,123 @@
 				<Folder Name="Context" ID="{D0F84FC2-A7E5-469D-8389-32F99F04AF9E}" ShortID="133031024">
 					<ChildrenList>
 						<SoundBank Name="Quest_01" ID="{16449C42-4CEF-4774-94E6-0EA1A8C0D1AC}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q2_3" ID="{FC3EE407-D717-41CB-9853-F9360DD9A73E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q2_1" ID="{4F6FA6BD-FD6B-42EC-AC1A-512295CF7571}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q1_1" ID="{18D30F25-B6C7-4421-983A-CAF69F284615}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q2_2" ID="{C406623D-E25A-45B9-B398-5D3C8A095120}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q1_3" ID="{5D3FF5E7-02AF-4AE7-85BA-6B5D272C0B74}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q1_2" ID="{9EF5E1E1-613F-4CAC-9575-6273EC475018}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Quest_02" ID="{667C5076-FCFC-4969-84A0-7EE4652A16D9}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q2_3" ID="{FC3EE407-D717-41CB-9853-F9360DD9A73E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q2_1" ID="{4F6FA6BD-FD6B-42EC-AC1A-512295CF7571}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q1_1" ID="{18D30F25-B6C7-4421-983A-CAF69F284615}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q2_2" ID="{C406623D-E25A-45B9-B398-5D3C8A095120}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q1_3" ID="{5D3FF5E7-02AF-4AE7-85BA-6B5D272C0B74}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q1_2" ID="{9EF5E1E1-613F-4CAC-9575-6273EC475018}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Quest_03" ID="{BB57E3A5-1FB7-4528-81C6-2F506E319C27}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_09" ID="{EC69616F-66D2-419F-AD5B-9FAC8A14706F}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_07" ID="{9F9A3EF0-F0D6-422B-8BEF-B315504BC484}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_04" ID="{E8D7E014-EF96-4233-A93B-B0CEF66EFFFF}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_05" ID="{065AF803-BE62-42A7-9DB1-E4DCBF6D55A6}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Blacksmith_DialogueLine_Q3b_05" ID="{7D29B995-2A60-43CE-B9BE-D9FB15776E81}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Blacksmith_DialogueLine_Q3b_04" ID="{E3083747-AFE5-450D-9ECB-83C858D8645F}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_06" ID="{EF2B1C8D-686D-450E-9FFE-A3B6EBC978BF}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_08" ID="{EFB7744B-CB0D-4617-8BC8-5383CE8D528E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_01" ID="{C48BFF0A-26CB-46C4-9512-2FBE498C703E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_02" ID="{80178194-EA12-46CE-945E-5C3C285945EB}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_10" ID="{F41A3A0A-62EB-4774-812F-0730A003A897}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Blacksmith_DialogueLine_Q3b_02" ID="{FF925B2D-6FA3-4790-BB94-44FE7A155C38}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q3a_03" ID="{C73FFB3B-1219-47AA-AB03-275F2F727588}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Blacksmith_DialogueLine_Q3b_01" ID="{ECED2123-81D9-484C-BFAC-9D899623D61E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Blacksmith_DialogueLine_Q3b_03" ID="{7127DB4A-2AE0-4E43-9661-29C3CE541AF1}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Quest_04" ID="{B1F98816-1421-4135-9212-2FCD3717A5C1}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q4a_04" ID="{CBDAE97E-E220-44C3-B2E9-0FE55BD71A79}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q4a_06" ID="{EE04AC06-F955-46AF-AFDA-7F9160357DE6}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q4a_01" ID="{64FEF935-FDB8-4966-902D-2402732A52B5}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Blacksmith_DialogueLine_Q4b_01" ID="{E3F71DFF-825F-4BB6-8BC1-FB98CB8EBCBA}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q4a_03" ID="{7AAA48CF-165A-4C7D-AB88-5B84F96A996D}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q4a_02" ID="{030AD864-B91F-4D4E-8C69-8A357B369DB7}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q4a_05" ID="{58CCCB66-677F-4DF1-9413-3424686D2A22}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Quest_05" ID="{FC2CAEA6-B3AD-4247-82DA-091C3EF71A70}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5a_06" ID="{A9183490-B267-40B7-89B3-1404C787E219}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5a_01" ID="{0A54821D-6DD8-41DE-93F8-2C6C79D7EE32}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5b_04" ID="{89345FD2-8FB8-45CC-8B18-B1D977462164}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5b_01" ID="{54EB735E-B283-469A-AF2C-41540CD739B1}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5a_02" ID="{447989E2-4D70-4746-B962-93990E732FA5}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5b_03" ID="{75941E11-CA7F-4A5A-BCB5-4E6805D2525B}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5a_04" ID="{BE68D0DD-B950-4B36-8188-F73AC66E4BE5}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5a_03" ID="{B6B87ADC-2DE8-4C51-B059-2453265FE4B4}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5a_07" ID="{51E6C2AE-E7A4-4CA0-ACF1-6B19314D3654}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5a_05" ID="{94F3B34F-1D0E-4D96-8195-47366F983FC5}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q5b_02" ID="{79F6043A-0785-4F4B-8D12-E8EBA028BB2C}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Quest_06" ID="{B160C410-78AF-431F-99D7-CFC34F945AC7}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q6_01" ID="{6C0579B7-7B81-4346-BF7A-81EB06B3D377}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q6_03" ID="{1242E51F-4149-4566-B1BC-1AE0C44CFFCF}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q6_04" ID="{8DEB9743-CA62-46B1-B499-F6F2F900F448}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q6_02" ID="{42BACF85-DB94-4A86-87B9-578B3FFDD687}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q6_05" ID="{CA27701B-4533-4E18-B23D-75486423040F}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Quest_07" ID="{16FF7895-A633-42D2-84EF-FB372CDFDD3C}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8a_03" ID="{26687443-B060-4177-A76C-969D48B20A30}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q7_02" ID="{1826A212-A9FC-4218-AC1A-546EB396C68B}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8a_05" ID="{A0231DC5-319E-425E-993C-614F8A7353BD}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q7_04" ID="{170A4FC4-CA99-45B6-9020-1D9E4489E31C}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8a_04" ID="{4BEA235B-85FB-46A0-95E9-1894E791A587}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8a_01" ID="{5B43E68F-994A-477B-A528-3C404E90EC71}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q7_03" ID="{F07EE51B-FF81-4B2D-95C1-0FF4AC13A2C7}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q7_01" ID="{415B6969-2DF7-4B70-9390-BA459FE52A19}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8a_06" ID="{438812A9-41B2-4C4C-9285-D502B4A3A394}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8a_02" ID="{295CF17F-8064-4E9D-9B4E-92DC9DAAC8D5}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="Quest_08" ID="{8B03D93E-4A00-4A9E-9D07-CAC5688B5028}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8d_02" ID="{6373F2B3-6F83-42BB-838F-757FEC69E447}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8d_01" ID="{08FDB764-3A3E-42C5-9375-921780FFF516}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8b_04" ID="{D1D2CBFC-4FB0-4369-86E9-6E7A205774FF}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8b_06" ID="{A21F7FBF-C11D-4546-A965-04A71E5D3CE9}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8c_02" ID="{966A1D9D-B9BD-4597-9196-17A2A0B873A0}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8c_03" ID="{37B55047-54B7-46AF-916D-7277FFDFD8FB}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8b_07" ID="{F08DE099-6C5E-46FB-9F34-DBC893612A8F}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8b_01" ID="{6C467B2E-4FD3-49F8-BC2A-AADCCD29F916}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8b_02" ID="{43224DAB-C1FE-4C11-B102-FC262EFEBF0A}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8b_03" ID="{DE7659A9-7392-4D3B-A158-F80B0D6D4576}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8c_01" ID="{8594C4CC-604E-4E13-BB4C-B2CE89A31A79}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8b_05" ID="{930FDA9B-4D8A-4E42-9E62-846C7E24EE20}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Wwizard_DialogueLine_Q8d_03" ID="{CDD35658-1A58-4EAB-951E-573E7921BF2E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
