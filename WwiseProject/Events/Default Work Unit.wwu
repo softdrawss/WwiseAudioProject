@@ -171,45 +171,10 @@
 							<ChildrenList>
 								<Event Name="Destruction_Container" ID="{7E56AA59-B14D-423C-B8EA-FFDABECD3FCC}">
 									<ChildrenList>
-										<Action Name="" ID="{1CB4E12F-332A-4401-8015-3B6AE41C4FD1}" ShortID="713419915">
+										<Action Name="" ID="{EFE5DA8B-6D7F-4210-9775-49A264282D1E}" ShortID="767269167">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="BAS_Crate_Destroy_01" ID="{2BE61ACE-C3E2-4C24-A83E-61E1A0E4E140}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{181B6240-C05A-4DB6-B4C1-C4F8D8F55D7E}" ShortID="311042382">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Crate_Destroy_02" ID="{DA3F1D8C-B9E4-4860-8031-3219DBBBAEB3}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{EC21041F-D0BF-4BB4-867C-6BF01C9ECB73}" ShortID="310025738">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Crate_Destroy_03" ID="{75CDC525-D5BD-414C-8A6D-E5E33FEAA7C0}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{E5251DEA-7FC0-45EF-B5C9-7B939146F312}" ShortID="1007954520">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Crate_Destroy_04" ID="{515C676B-A517-46EC-8961-792DD119322D}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{8F93AE55-3AC1-4630-8923-400927064357}" ShortID="286380672">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Crate_Destroy_05" ID="{DB518C82-822D-41E5-97D2-BAD9E3234364}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{64FE20AA-9305-4791-8051-0433FEC59620}" ShortID="1016460649">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Crate_Destroy_06" ID="{E23DE3DD-FF67-470E-AC83-A32DD776885E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+													<ObjectRef Name="Crate" ID="{30F6C5A8-095C-4BAA-B47D-CBABD74B58EA}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -228,30 +193,26 @@
 								</Event>
 								<Event Name="Destruction_Rock_Destroy" ID="{D008FC02-2407-4078-B83C-FE3CC185D529}">
 									<ChildrenList>
-										<Action Name="" ID="{7225685F-53BE-4FE7-9E0B-C79EAD89B204}" ShortID="788192440">
+										<Action Name="" ID="{FA58922E-F71A-48A1-8BE5-D47F4F4A648B}" ShortID="1052362546">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="BAS_Destroy_Rock_01" ID="{16C62643-1D60-4BDE-89C5-6639789A69E3}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{7AB6A62E-A52F-4820-B943-D3922C290F98}" ShortID="448459891">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Destroy_Rock_02" ID="{3F299884-3C97-4FE6-BFA3-D143E6C017D7}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{2A3908C1-DF28-4B73-B0DB-3DA4A17C3B42}" ShortID="909729654">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BAS_Destroy_Rock_03" ID="{EFCABAFE-3DE6-41EC-85C2-0B459EA26EB7}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+													<ObjectRef Name="Rock" ID="{96EC7FDA-D59D-4E36-A3DC-A896AF32DE8C}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Destruction_VolcanicBoulder_Impact" ID="{87660C5A-4F08-4F05-8B70-713680746771}"/>
+								<Event Name="Destruction_VolcanicBoulder_Impact" ID="{87660C5A-4F08-4F05-8B70-713680746771}">
+									<ChildrenList>
+										<Action Name="" ID="{697895F9-5D8F-4799-A667-41E05A133456}" ShortID="49278706">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Explosion" ID="{3E78000C-F62D-4B84-852F-27DCA9DB11AC}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Player" ID="{0176F716-34EF-4945-8A8D-EFE46AFE4C3B}" ShortID="471104761">
