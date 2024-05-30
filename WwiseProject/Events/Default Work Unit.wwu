@@ -72,8 +72,28 @@
 								</Folder>
 								<Folder Name="Inventory" ID="{EE608FFB-A0BF-4FB0-A52E-F349890CA546}" ShortID="954566092">
 									<ChildrenList>
-										<Event Name="UI_Inventory_Open" ID="{25279CA7-1913-495A-8D61-A039E17AEAFB}"/>
-										<Event Name="UI_Inventory_Close" ID="{A811063B-2A36-4628-A7F5-22CA20A6532E}"/>
+										<Event Name="UI_Inventory_Open" ID="{25279CA7-1913-495A-8D61-A039E17AEAFB}">
+											<ChildrenList>
+												<Action Name="" ID="{FD537CBA-9366-468F-9B6D-4B6A0BBD8C6B}" ShortID="159477945">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Inventory_Open" ID="{D750671F-3069-4D9F-998D-537BDF5CB92A}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="UI_Inventory_Close" ID="{A811063B-2A36-4628-A7F5-22CA20A6532E}">
+											<ChildrenList>
+												<Action Name="" ID="{8AE3CF71-90D0-48A5-860A-5225FA6B871F}" ShortID="872928326">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Inventory_Close" ID="{49F1C121-2BB2-4F1A-9979-1E0509588FC9}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 										<Event Name="UI_Inventory_Roll" ID="{1E7C0BD9-0AED-49DD-95A1-B9D67890BC6B}"/>
 									</ChildrenList>
 								</Folder>
@@ -82,8 +102,28 @@
 										<Folder Name="Quest Roll" ID="{D85EA77B-6694-4B14-B701-E4585D396D2C}" ShortID="462063408">
 											<ChildrenList>
 												<Event Name="UI_QuestRoll_Show" ID="{469DA182-C82E-4622-9114-9EAB057752F4}"/>
-												<Event Name="UI_QuestRoll_Open" ID="{6ED09825-5732-4D46-8FBE-10423ED1A12F}"/>
-												<Event Name="UI_QuestRoll_Close" ID="{387254B7-36ED-48D5-A5BF-AFBBF7CF7BB9}"/>
+												<Event Name="UI_QuestRoll_Open" ID="{6ED09825-5732-4D46-8FBE-10423ED1A12F}">
+													<ChildrenList>
+														<Action Name="" ID="{77C7B496-6C4C-45C4-BCF9-BA8AB1EDD851}" ShortID="197082565">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="BAS_QuestRoll_Open" ID="{6171A0FA-8162-4573-BF25-F09E740FCFCB}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="UI_QuestRoll_Close" ID="{387254B7-36ED-48D5-A5BF-AFBBF7CF7BB9}">
+													<ChildrenList>
+														<Action Name="" ID="{18064F02-C091-4D51-9740-1CE27A556806}" ShortID="783450935">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="BAS_QuestRoll_Close" ID="{B8B7B113-39FB-4C2B-B4D0-947DEF446477}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
 												<Event Name="UI_QuestRoll_Hide" ID="{84ADB5CE-BDC8-46DB-A31C-B80121AA46C1}"/>
 											</ChildrenList>
 										</Folder>
@@ -129,9 +169,88 @@
 						</Folder>
 						<Folder Name="Destruction" ID="{F8D63E50-14C7-4A58-BD4E-66AFC28E1E18}" ShortID="315042474">
 							<ChildrenList>
-								<Event Name="Destruction_Container" ID="{7E56AA59-B14D-423C-B8EA-FFDABECD3FCC}"/>
-								<Event Name="Destruction_Crystal_Destroy" ID="{E4E72D5C-649C-48BE-A200-993E39491615}"/>
-								<Event Name="Destruction_Rock_Destroy" ID="{D008FC02-2407-4078-B83C-FE3CC185D529}"/>
+								<Event Name="Destruction_Container" ID="{7E56AA59-B14D-423C-B8EA-FFDABECD3FCC}">
+									<ChildrenList>
+										<Action Name="" ID="{1CB4E12F-332A-4401-8015-3B6AE41C4FD1}" ShortID="713419915">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Crate_Destroy_01" ID="{2BE61ACE-C3E2-4C24-A83E-61E1A0E4E140}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{181B6240-C05A-4DB6-B4C1-C4F8D8F55D7E}" ShortID="311042382">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Crate_Destroy_02" ID="{DA3F1D8C-B9E4-4860-8031-3219DBBBAEB3}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EC21041F-D0BF-4BB4-867C-6BF01C9ECB73}" ShortID="310025738">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Crate_Destroy_03" ID="{75CDC525-D5BD-414C-8A6D-E5E33FEAA7C0}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E5251DEA-7FC0-45EF-B5C9-7B939146F312}" ShortID="1007954520">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Crate_Destroy_04" ID="{515C676B-A517-46EC-8961-792DD119322D}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{8F93AE55-3AC1-4630-8923-400927064357}" ShortID="286380672">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Crate_Destroy_05" ID="{DB518C82-822D-41E5-97D2-BAD9E3234364}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{64FE20AA-9305-4791-8051-0433FEC59620}" ShortID="1016460649">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Crate_Destroy_06" ID="{E23DE3DD-FF67-470E-AC83-A32DD776885E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Destruction_Crystal_Destroy" ID="{E4E72D5C-649C-48BE-A200-993E39491615}">
+									<ChildrenList>
+										<Action Name="" ID="{CEEAA94B-4B87-4CB2-835A-AB4FA0E14B84}" ShortID="710789060">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Crystals_Destroy" ID="{FFD54F4A-99A2-49D9-8F39-CB7492E33386}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Destruction_Rock_Destroy" ID="{D008FC02-2407-4078-B83C-FE3CC185D529}">
+									<ChildrenList>
+										<Action Name="" ID="{7225685F-53BE-4FE7-9E0B-C79EAD89B204}" ShortID="788192440">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Destroy_Rock_01" ID="{16C62643-1D60-4BDE-89C5-6639789A69E3}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7AB6A62E-A52F-4820-B943-D3922C290F98}" ShortID="448459891">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Destroy_Rock_02" ID="{3F299884-3C97-4FE6-BFA3-D143E6C017D7}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2A3908C1-DF28-4B73-B0DB-3DA4A17C3B42}" ShortID="909729654">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Destroy_Rock_03" ID="{EFCABAFE-3DE6-41EC-85C2-0B459EA26EB7}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Destruction_VolcanicBoulder_Impact" ID="{87660C5A-4F08-4F05-8B70-713680746771}"/>
 							</ChildrenList>
 						</Folder>
