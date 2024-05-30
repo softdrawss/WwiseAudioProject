@@ -1,6 +1,1133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}" SchemaVersion="119">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambient_Background" ID="{B2F2EEC7-950E-4385-911F-EE874466B534}" ShortID="548201275">
+					<ChildrenList>
+						<MusicSegment Name="amb_forest_night_background_loop_02" ID="{A1D221FD-7E11-4841-8AED-67C7CD5FF65F}" ShortID="334295581">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24624.716553288"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="amb_forest_night_background_loop_02" ID="{53DFF9EC-6F8F-4DB8-904B-E3CF8BFBFE8F}" ShortID="603633611">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{036D47BD-FF10-4B50-AC07-464F24629A39}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{38B3BCB4-30B1-4174-8964-BA266AD77CB8}">
+											<Language>English(US)</Language>
+											<AudioFile>Ambient_Background\amb_forest_night_background_loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="56901495"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F6C7BF5D-EC80-4A87-AD36-DEDBD6310D0C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="amb_forest_night_background_loop_02" ID="{77521E3C-ADA4-4FBD-BF14-027BC76ABAD2}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24624.716553288"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="amb_forest_night_background_loop_02" ID="{38B3BCB4-30B1-4174-8964-BA266AD77CB8}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{24257A04-D081-4C24-AEE9-1D91156FE099}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{690E3B37-DE65-456B-902E-720DCE4DB87D}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="24624.716553288"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="amb_forest_night_background_loop_04" ID="{08AFC369-4E67-48ED-ACD2-33C5B1E349B6}" ShortID="156877219">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="22221.2698412698"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="amb_forest_night_background_loop_04" ID="{4DDAE584-7EC1-4AED-B9FA-CA3112738E9F}" ShortID="516849617">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{35980480-A5C0-4AD7-AB88-10BA318C3F83}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_forest_night_background_loop_04" ID="{E50F5082-3EB9-4D8E-A4AC-0DF03F3D39E5}">
+											<Language>English(US)</Language>
+											<AudioFile>Ambient_Background\amb_forest_night_background_loop_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="567254959"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8526B5F8-3D0B-47D9-A79A-D27BE5EF9090}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="amb_forest_night_background_loop_04" ID="{B6FC68B4-F570-4B29-8331-97C644A7CF97}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="22221.2698412698"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="amb_forest_night_background_loop_04" ID="{E50F5082-3EB9-4D8E-A4AC-0DF03F3D39E5}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{79E00CBA-D576-467C-87B7-A0073D8E4FB5}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{85728E55-E2D2-4F27-8204-86AA9B89E7BB}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="22221.2698412698"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="BAS_amb_cave_background_LP" ID="{F28031D6-0371-47A0-869F-E05A80768128}" ShortID="959617375">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="77014.5625"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BAS_amb_cave_background_LP" ID="{830B9C08-2A4B-4636-A0D7-8F0C9996B6E3}" ShortID="201605621">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{A76C6E6F-8035-4E8C-B452-E9C7EE2C2949}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{8641A30B-5B04-4C05-901B-606849CEA507}">
+											<Language>English(US)</Language>
+											<AudioFile>Ambient_Background\BAS_amb_cave_background_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="975546955"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0230B430-5AF0-4076-AFA5-26873FD9A0A9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="BAS_amb_cave_background_LP" ID="{B8F66512-B999-41BD-804C-820508D6FF79}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="77014.5625"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="BAS_amb_cave_background_LP" ID="{8641A30B-5B04-4C05-901B-606849CEA507}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{37140A51-F38F-4A4F-A0ED-16433EF8D0F8}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{B86D860D-3F68-4C4E-A100-4549D32FEDA9}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="77014.5625"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="BAS_amb_forest_day_background_loop_01" ID="{6BA17377-37CB-4495-B739-835E2171EC4F}" ShortID="682357018">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="158673.560090703"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BAS_amb_forest_day_background_loop_01" ID="{8706BA4A-E161-4204-9C46-DD26FA4494D8}" ShortID="927736093">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{0B3F3C52-34C1-4576-9114-DA83E610B47F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{5609B45A-474C-44FE-A2C5-2CF8E459BE1A}">
+											<Language>English(US)</Language>
+											<AudioFile>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="719541286"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7FAE06DA-C07A-4CCF-AE09-46417F101C2D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="BAS_amb_forest_day_background_loop_01" ID="{276DF08E-C0BE-4A6C-9EBD-A960C64A7B2E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="158673.560090703"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="BAS_amb_forest_day_background_loop_01" ID="{5609B45A-474C-44FE-A2C5-2CF8E459BE1A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D589413B-B560-4218-8B6C-DEE55D40EABB}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{A66E79A0-D1C4-4686-B258-259DDA135061}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="158673.560090703"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="BAS_amb_pineforest_night_background_loop_01" ID="{2A402E1E-1B01-43D2-AF73-739CA0438D60}" ShortID="205739344">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="78397.3015873016"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="BAS_amb_pineforest_night_background_loop_01" ID="{0A5D01E4-9853-48BB-96D3-3049614E331A}" ShortID="1041522899">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{85C3AC7A-07F2-4117-989C-075E78937975}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{3DAF14C8-13DF-4267-9854-4AE8E3B1F316}">
+											<Language>English(US)</Language>
+											<AudioFile>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="230228219"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{22576AE5-ACEE-4CFA-A7CE-D39801ADAA3C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="BAS_amb_pineforest_night_background_loop_01" ID="{FF214196-AD74-4DA4-94B9-0626F46466DC}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="78397.3015873016"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="BAS_amb_pineforest_night_background_loop_01" ID="{3DAF14C8-13DF-4267-9854-4AE8E3B1F316}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D24FC737-B55E-4A50-BF81-12D7286FD60C}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E39DF395-E1C3-49BF-A1B8-8CE60F849A2F}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="78397.3015873016"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSwitchContainer Name="Ambient Desert" ID="{695D5271-049A-4712-989C-9D7B844685A1}" ShortID="933141471">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{30F9F8F2-7BED-4A52-8330-645D296330A5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{2ED2760C-4F4E-42D0-A7BA-892DD3887CFF}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="Desert Day" ID="{0205B6F4-F516-4B33-A01A-AD2540A205BE}" ShortID="30201485">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{6147D7DC-21BE-41D9-A844-920FEE8646F7}" ShortID="177372649">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{BF7992E6-AF51-4236-B3A8-CE2242750668}" ShortID="925701643">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{C96D59F2-D5BA-43A0-84FD-EA85CE8A5309}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B75C4ABE-E54D-4253-B6F6-037001F803E3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{B65CC706-3E57-4B5A-9F39-A769E2CBB879}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="BAS_amb_dungeon_day_background_loop_01" ID="{C96D59F2-D5BA-43A0-84FD-EA85CE8A5309}" ShortID="432751309">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="139691.247165533"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="BAS_amb_dungeon_day_background_loop_01" ID="{4DAC32F9-FE4E-4001-91DE-88FEA2C3EE4F}" ShortID="573590716">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{52EA9282-6CB7-4A7D-93EB-22B251D095CE}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{611C90E6-D887-4040-9A94-9F2B15D7D1EB}">
+															<Language>English(US)</Language>
+															<AudioFile>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1058968751"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{5C942C6D-920B-45FF-A4B3-FC18549CE8A1}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="BAS_amb_dungeon_day_background_loop_01" ID="{CD1EB102-E294-41FC-9FCC-B86F96B9F79F}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="139691.247165533"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{611C90E6-D887-4040-9A94-9F2B15D7D1EB}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{D0A7A591-0B40-47BC-A052-E233AFA54189}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{5E7CCD1C-ED78-4DA6-B432-3247CE15E0E7}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="139691.247165533"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Desert Night" ID="{51979497-09B4-4F89-83AD-8C81422D5F18}" ShortID="394948005">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{FFAFF632-5DBA-482F-A836-072D1F00AF05}" ShortID="988420366">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{6E47DE56-AE55-4DE0-A37B-21FD1C4E13A3}" ShortID="353018485">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="BAS_amb_desert_night_background_loop_01" ID="{17ACB8A6-37F9-46E8-A230-559F2689566C}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{0A012814-71E4-4669-ACB1-A745CEF18F0F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{97654FC6-AF9A-4A42-9000-500B12D19433}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="BAS_amb_desert_night_background_loop_01" ID="{17ACB8A6-37F9-46E8-A230-559F2689566C}" ShortID="298079301">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="67636.8253968254"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="BAS_amb_desert_night_background_loop_01" ID="{34B6E568-7F63-4AD3-864C-BBB3F078C4F7}" ShortID="1041314053">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{5FEA5FD2-CCA7-4EB1-9911-C9EBE0B46D39}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_amb_desert_night_background_loop_01" ID="{12936F90-5C7D-460E-9B40-A226E4565CC4}">
+															<Language>English(US)</Language>
+															<AudioFile>Ambient_Background\BAS_amb_desert_night_background_loop_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1048284239"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{04A38369-5581-4436-ABDE-8ED4722E9E69}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="BAS_amb_desert_night_background_loop_01" ID="{223A736D-29D1-4AB1-AEC3-6FA972E845DB}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="67636.8253968254"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="BAS_amb_desert_night_background_loop_01" ID="{12936F90-5C7D-460E-9B40-A226E4565CC4}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{42C67DC6-7328-4CE1-A18E-92154E5CD22D}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{97A87A3D-91D5-467C-BF74-C9C38789A3C1}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="67636.8253968254"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Arguments">
+									<Reference>
+										<ObjectRef Name="DayOrNight" ID="{F44C98A6-AD3E-4B8D-B4C2-3FA422B48385}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="Entries">
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{A68CF22D-28AD-4854-A990-0296A51115D6}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Desert Day" ID="{0205B6F4-F516-4B33-A01A-AD2540A205BE}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="Day" ID="{8114F560-4054-4529-8D76-1A3B2A655225}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{679F0F5E-9236-46BA-8329-0AFBB9BF40AC}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Desert Night" ID="{51979497-09B4-4F89-83AD-8C81422D5F18}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="Night" ID="{3E1FDFDB-B986-4F2F-BACB-254C324B22F4}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="Ambient Village" ID="{B33459B9-3904-46E6-B9F1-3038E385196A}" ShortID="836743381">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{7BF05B13-FDF2-4B61-B4CC-5EFB847ECE73}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{76E151F7-651E-41B1-BF36-445B1424066D}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="Village Day" ID="{477354E5-C37B-47DB-B6CE-EA0C94293177}" ShortID="1058319623">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{BC892574-AE07-45EB-8F6C-9EA180838263}" ShortID="632476660">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{9B3B7460-BA27-4131-9228-6021AD414743}" ShortID="606576845">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="BAS_amb_village_day_background_loop_01" ID="{742B08BD-ADB2-40A6-858A-A4892A811FEA}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{6489003A-4CFA-4FD7-8F68-BA9B8F234C9F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{328A8DD1-0FA3-4322-B308-4E3B489369EE}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="BAS_amb_village_day_background_loop_01" ID="{742B08BD-ADB2-40A6-858A-A4892A811FEA}" ShortID="122024117">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="163271.111111111"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="BAS_amb_village_day_background_loop_01" ID="{9CCD09E7-54F8-4D69-ABBD-480F80AADDE1}" ShortID="312510970">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{C9666A0E-4A18-40C8-BF76-4400988C0A05}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_amb_village_day_background_loop_01" ID="{11D946A3-96D1-4BA4-9BA5-4C8022AFD719}">
+															<Language>English(US)</Language>
+															<AudioFile>Ambient_Background\BAS_amb_village_day_background_loop_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="534586624"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{E716355F-CFBA-4718-96F4-B4B13AD0766D}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="BAS_amb_village_day_background_loop_01" ID="{0C968245-2661-45B2-8F63-2F793E33C327}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="163271.111111111"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="BAS_amb_village_day_background_loop_01" ID="{11D946A3-96D1-4BA4-9BA5-4C8022AFD719}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{3B05A5D0-3DD2-4CE8-A3B1-18DE8BDB7D2B}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{A6760384-33B0-451F-BD8F-01EAF6503051}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="163271.111111111"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Village Night" ID="{87A72F44-AB8F-4FC0-8FF2-65D9113E0AAD}" ShortID="252550541">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{E0686645-4E15-4D8C-91E7-AE5835217DC6}" ShortID="704694556">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{17EC344D-CF87-44A9-AEB2-67125CAEE4E2}" ShortID="159360140">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="BAS_amb_village_night_background_loop_01" ID="{984ADD07-450B-4AE6-B278-C97B1003E965}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{A50AEC94-09BC-4D0F-93B9-5169347EB65C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{047E6163-F4FA-415F-98D7-E151E7D9F886}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="BAS_amb_village_night_background_loop_01" ID="{984ADD07-450B-4AE6-B278-C97B1003E965}" ShortID="70712190">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="132980.680272109"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="BAS_amb_village_night_background_loop_01" ID="{49F6C4CD-459D-42CB-86A9-E0B3303C2E0B}" ShortID="982499583">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{4D943340-0DF3-40E5-AB38-A6B953C92A4F}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{840DEA5F-AA8F-4981-904C-FA61202A0D59}">
+															<Language>English(US)</Language>
+															<AudioFile>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="273227175"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{67298FBD-7226-4BA2-8E72-7DA98F028813}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="BAS_amb_village_night_background_loop_01" ID="{528ECB9D-E5AB-4AA6-B587-4E706109AB24}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="132980.680272109"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="BAS_amb_village_night_background_loop_01" ID="{840DEA5F-AA8F-4981-904C-FA61202A0D59}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{5A27A1E2-FD2D-423D-8CA8-EF3BA03DBAED}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{EB818EDB-80E2-4C3E-8B21-9B95A82B7E1B}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="132980.680272109"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Arguments">
+									<Reference>
+										<ObjectRef Name="DayOrNight" ID="{F44C98A6-AD3E-4B8D-B4C2-3FA422B48385}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="Entries">
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{8A39ED60-DAE4-44AB-9D9E-564F616CE148}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Village Day" ID="{477354E5-C37B-47DB-B6CE-EA0C94293177}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="Day" ID="{8114F560-4054-4529-8D76-1A3B2A655225}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{C0599E94-E00D-484C-8FD7-85E5020F063E}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Village Night" ID="{87A72F44-AB8F-4FC0-8FF2-65D9113E0AAD}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="Night" ID="{3E1FDFDB-B986-4F2F-BACB-254C324B22F4}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSwitchContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
