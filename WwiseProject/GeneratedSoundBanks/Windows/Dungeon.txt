@@ -6,4 +6,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	422500113	BAS_Destroy_Rock_03	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock\Rock\BAS_Destroy_Rock_03		87136
 	896141169	BAS_Destroy_Rock_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock\Rock\BAS_Destroy_Rock_01		105568
 	917555551	BAS_Destroy_Rock_02	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock\Rock\BAS_Destroy_Rock_02		119904
+	940096052	BAS_amb_dungeon_day_background_loop_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_dungeon_day_background_loop_01		24641632
 

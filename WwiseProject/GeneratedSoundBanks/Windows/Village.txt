@@ -3,7 +3,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	2258053876	Ambient_River			\Default Work Unit\SFX\Ambient\3D Emitters\Continuous\Ambient_River	
 	2752753183	Ambient_Region_Village			\Default Work Unit\SFX\Ambient\Ambient_Region_Village	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3219147252	DayOrNight			\Default Work Unit\DayOrNight	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	273227175	BAS_amb_village_night_background_loop_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Ambient_Background\BAS_amb_village_night_background_loop_01_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Ambient_Background\Ambient Village\Village Night\BAS_amb_village_night_background_loop_01\BAS_amb_village_night_background_loop_01		23457888
+	534586624	BAS_amb_village_day_background_loop_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Ambient_Background\BAS_amb_village_day_background_loop_01_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Ambient_Background\Ambient Village\Village Day\BAS_amb_village_day_background_loop_01\BAS_amb_village_day_background_loop_01		28801120
 	715746160	BAS_Water_River	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072160
 	730411849	BAS_WindMillBlade_02	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WindMillBlade\BAS_WindMillBlade_02		1163360
 	927528967	BAS_WindMillBlade_03	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WindMillBlade\BAS_WindMillBlade_03		352352

@@ -2,6 +2,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	1049266392	Ambient_Region_Woodlands			\Default Work Unit\SFX\Ambient\Ambient_Region_Woodlands	
 	1934835592	Ambient_Waterfall			\Default Work Unit\SFX\Ambient\3D Emitters\Continuous\Ambient_Waterfall	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3219147252	DayOrNight			\Default Work Unit\DayOrNight	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	56901495	amb_forest_night_background_loop_02	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Ambient_Background\amb_forest_night_background_loop_02_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Ambient_Background\Ambient Forest\Forest Night\amb_forest_night_background_loop_02\amb_forest_night_background_loop_02		4343896
 	552963955	BAS_Waterfall	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Waterfall		768096
+	719541286	BAS_amb_forest_day_background_loop_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Ambient_Background\BAS_amb_forest_day_background_loop_01_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Ambient_Background\Ambient Forest\Forest Day\BAS_amb_forest_day_background_loop_01\BAS_amb_forest_day_background_loop_01		27990112
 

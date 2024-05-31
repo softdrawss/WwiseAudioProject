@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2355650095	Ambient_Crystal_Hum			\Default Work Unit\SFX\Ambient\3D Emitters\Continuous\Ambient_Crystal_Hum	
 	2453392179	Player_Footstep			\Default Work Unit\SFX\Player\Player_Footstep	
 	3664581270	Ambient_Campfire_Play			\Default Work Unit\SFX\Ambient\3D Emitters\Continuous\Ambient_Campfire_Play	
+	3741135221	Music_Region			\Default Work Unit\Music\Music_Region	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\SFX\UI\Inventory\UI_Inventory_Roll	
 	4254124015	Destruction_Container			\Default Work Unit\SFX\Destruction\Destruction_Container	
 	4275106484	Ambient_Lava			\Default Work Unit\SFX\Ambient\3D Emitters\Continuous\Ambient_Lava	
@@ -35,6 +36,20 @@ Switch	ID	Name	Switch Group			Notes
 	3276966729	Enemy_EvilSpitPlant	Surface_Type			
 	3444057113	Crystal	Surface_Type			
 	4248645337	Grass	Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
@@ -97,12 +112,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	629231586	BAS_Crate_Destroy_04	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Destruction\Crate\BAS_Crate_Destroy_04		146658
 	633391822	BAS_Inventory_Close	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\BAS_Inventory_Close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Close		46656
 	649199413	BAS_Player_Footstep_stone_run_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Stone\BAS_Player_Footstep_stone_run_01		26756
+	652918473	Nowhere_120BPM_4_4_L8M_P0	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Music\Explore\Nowhere_120BPM_4_4_L8M_P0_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\Nowhere\Nowhere_120BPM_4_4_L8M_P0\Nowhere_120BPM_4_4_L8M_P0		3072160
 	672914665	BAS_Player_Footstep_sand_run_05	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Sand\BAS_Player_Footstep_sand_run_05		25748
+	674770132	Cave_Silent_WwizardHouse_120BPM_L8M_P0	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\Cave\Cave_Silent_WwizardHouse_120BPM_L8M_P0\Cave_Silent_WwizardHouse_120BPM_L8M_P0		1728096
+	703229218	Woodlands_Day_120BPM_4_4_L8M_P0	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\Woodlands\Woodlands_Day_120BPM_4_4_L8M_P0\Woodlands_Day_120BPM_4_4_L8M_P0		3840160
 	706146512	BAS_Player_Footstep_stone_run_05	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Stone\BAS_Player_Footstep_stone_run_05		23270
 	712050982	BAS_Player_Footstep_water_run_05	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Water\BAS_Player_Footstep_water_run_05		23270
 	718581162	BAS_Player_Footstep_wood_run_05	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Wood\BAS_Player_Footstep_wood_run_05		23270
 	721834821	BAS_Player_Footstep_wood_walk_06	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Walk\Wood\BAS_Player_Footstep_wood_walk_06		47032
 	727748107	BAS_Player_Footstep_dirt_run_05	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Dirt\BAS_Player_Footstep_dirt_run_05		23270
+	728586472	Village_120BPM_4_4_L8M_P1M	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Music\Explore\Village_120BPM_4_4_L8M_P1M_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\Village\Village_120BPM_4_4_L8M_P1M\Village_120BPM_4_4_L8M_P1M		4224160
 	735213831	BAS_Player_Footstep_dirt_run_04	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Dirt\BAS_Player_Footstep_dirt_run_04		26120
 	736132810	BAS_Player_Footstep_stone_run_04	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Stone\BAS_Player_Footstep_stone_run_04		26120
 	746707180	BAS_Player_Footstep_grass_run_05	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Grass\BAS_Player_Footstep_grass_run_05		23270
@@ -112,6 +131,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	763664468	BAS_QuestRoll_Close	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\BAS_QuestRoll_Close_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Quest Roll\BAS_QuestRoll_Close		112358
 	765446519	BAS_Player_Footstep_sand_walk_06	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Walk\Sand\BAS_Player_Footstep_sand_walk_06		23686
 	765703790	BAS_Destroy_Wood_02	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Wood_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Destruction\Wood\BAS_Destroy_Wood_02		77920
+	784090016	Dungeon_120BPM_4_4_L8M_P1M	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Music\Explore\Dungeon_120BPM_4_4_L8M_P1M_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\Dungeon\Dungeon_120BPM_4_4_L8M_P1M\Dungeon_120BPM_4_4_L8M_P1M		4224160
 	791670202	BAS_Crystal_Ringing	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Crystal_Ringing_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Crystal_Ringing		2469760
 	794267249	BAS_Player_Footstep_wood_run_03	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Wood\BAS_Player_Footstep_wood_run_03		26496
 	820958174	BAS_Player_Footstep_grass_walk_06	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Walk\Grass\BAS_Player_Footstep_grass_walk_06		47032
@@ -139,5 +159,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1010832280	BAS_Player_Footstep_sand_walk_02	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Walk\Sand\BAS_Player_Footstep_sand_walk_02		35914
 	1022837679	BAS_Destroy_Wood_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Wood_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Destruction\Wood\BAS_Destroy_Wood_01		124000
 	1026988491	BAS_Player_Footstep_dirt_walk_04	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Walk\Dirt\BAS_Player_Footstep_dirt_walk_04		45328
+	1034766675	Desert_120BPM_4_4_L8M_P0	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\Voices\English(US)\Music\Explore\Desert_120BPM_4_4_L8M_P0_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\Desert\Desert_120BPM_4_4_L8M_P0\Desert_120BPM_4_4_L8M_P0		6912160
 	1047719791	BAS_Player_Footstep_stone_run_03	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep\Run\Stone\BAS_Player_Footstep_stone_run_03		26496
 

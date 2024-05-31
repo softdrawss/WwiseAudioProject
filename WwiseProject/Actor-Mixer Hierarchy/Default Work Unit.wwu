@@ -409,31 +409,6 @@
 								<ActiveSource Name="amb_forest_night_background_loop_02" ID="{8661AC5D-3388-415E-89F0-A4E0A1D471C5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="amb_forest_night_background_loop_04" ID="{FB95690E-7B3A-4A19-B1A9-71FB662F26C8}" ShortID="208145384">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="amb_forest_night_background_loop_04" ID="{6086146C-3DD9-4294-A650-F2E1CFFD9E97}">
-									<Language>SFX</Language>
-									<AudioFile>Ambient_Background\amb_forest_night_background_loop_04.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="644519943"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="amb_forest_night_background_loop_04" ID="{6086146C-3DD9-4294-A650-F2E1CFFD9E97}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="BAS_amb_cave_background_LP" ID="{E322E9A5-59D7-4A4F-8A3C-9129ECD855C4}" ShortID="65276833">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -484,31 +459,6 @@
 								<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{E2C05C2F-ACD2-4735-BDA1-09376FF404DC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BAS_amb_forest_day_background_loop_01" ID="{33C4374E-1710-4293-81C2-3742B5EE9CAC}" ShortID="8809744">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{6E980323-C247-4EAA-B1E9-3086618A15B5}">
-									<Language>SFX</Language>
-									<AudioFile>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="853189088"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{6E980323-C247-4EAA-B1E9-3086618A15B5}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{26204116-0010-4F92-82A3-CBB23F26EE71}" ShortID="412883160">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -534,16 +484,13 @@
 								<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{0E28B7B9-BC66-4D80-A353-FB1676092B27}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<SwitchContainer Name="Ambient Desert" ID="{647BFEF8-A90A-432C-98C1-4DE24709CB1E}" ShortID="723860975">
+						<BlendContainer Name="Ambient Desert" ID="{9A05941F-3DBE-4A33-8CA5-FAAF8EE0ECD7}" ShortID="322382800">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="DayOrNight" ID="{F44C98A6-AD3E-4B8D-B4C2-3FA422B48385}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -598,71 +545,88 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{A5E63077-00CA-4882-B624-6A078C3681DD}" ShortID="345468067">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="MenuSlider_Master_Volume" ID="{EF214753-6ED8-4544-A5C2-864F177E72BB}" WorkUnitID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{0E08E71C-CE1B-46F3-B18C-E6AC536D8849}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="BAS_amb_desert_night_background_loop_01" ID="{96880ABB-BAB3-4270-9094-521971FE58A0}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="BAS_amb_desert_day_background_loop_01" ID="{89941EFB-40F6-4C20-8C25-1F19948D38AD}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="Day" ID="{8114F560-4054-4529-8D76-1A3B2A655225}"/>
-										<ItemList>
-											<ItemRef Name="BAS_amb_desert_day_background_loop_01" ID="{89941EFB-40F6-4C20-8C25-1F19948D38AD}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Night" ID="{3E1FDFDB-B986-4F2F-BACB-254C324B22F4}"/>
-										<ItemList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{FDEBB9BB-8D5D-4B2A-91A7-A3EFEAB1B164}" ShortID="991826572">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_Day" ID="{20E8B52D-4B1C-4227-AFE2-A3CE52A85173}" WorkUnitID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{D367EFBE-9E60-4E06-9C8D-07DF375732C0}" ShortID="864011414">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Time_of_Day" ID="{20E8B52D-4B1C-4227-AFE2-A3CE52A85173}" WorkUnitID="{0F51F275-0EC4-4F47-AC94-DE6B54FA41E3}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{99DD0A77-B318-449F-84A2-B7DA8258A64A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>24</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
 											<ItemRef Name="BAS_amb_desert_night_background_loop_01" ID="{96880ABB-BAB3-4270-9094-521971FE58A0}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
-							</GroupingInfo>
-						</SwitchContainer>
-						<SwitchContainer Name="Ambient Village" ID="{068C9607-4171-4E34-B642-F58DC7F2BB29}" ShortID="492485069">
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>8.5</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BAS_amb_desert_day_background_loop_01" ID="{89941EFB-40F6-4C20-8C25-1F19948D38AD}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>7.5</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>20.5</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BAS_amb_desert_night_background_loop_01" ID="{96880ABB-BAB3-4270-9094-521971FE58A0}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>19.5</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>24</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<BlendContainer Name="Ambient Forest" ID="{D7960874-92BF-460A-9542-6783A1B27870}" ShortID="167328559">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
@@ -670,8 +634,67 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
 								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="DayOrNight" ID="{F44C98A6-AD3E-4B8D-B4C2-3FA422B48385}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_amb_forest_day_background_loop_01" ID="{33C4374E-1710-4293-81C2-3742B5EE9CAC}" ShortID="8809744">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{6E980323-C247-4EAA-B1E9-3086618A15B5}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="853189088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{6E980323-C247-4EAA-B1E9-3086618A15B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="amb_forest_night_background_loop_04" ID="{FB95690E-7B3A-4A19-B1A9-71FB662F26C8}" ShortID="208145384">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_forest_night_background_loop_04" ID="{6086146C-3DD9-4294-A650-F2E1CFFD9E97}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\amb_forest_night_background_loop_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="644519943"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_forest_night_background_loop_04" ID="{6086146C-3DD9-4294-A650-F2E1CFFD9E97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Ambient Village" ID="{FC6B1166-6170-46B8-A3CA-334B3738D7FE}" ShortID="643196710">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -726,31 +749,7 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="BAS_amb_village_night_background_loop_01" ID="{A246B603-B327-4A02-B380-4FE7991E373C}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="BAS_amb_village_day_background_loop_01" ID="{5906DD18-F86E-4B5F-93D2-255FA26F6F97}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="Day" ID="{8114F560-4054-4529-8D76-1A3B2A655225}"/>
-										<ItemList>
-											<ItemRef Name="BAS_amb_village_day_background_loop_01" ID="{5906DD18-F86E-4B5F-93D2-255FA26F6F97}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Night" ID="{3E1FDFDB-B986-4F2F-BACB-254C324B22F4}"/>
-										<ItemList>
-											<ItemRef Name="BAS_amb_village_night_background_loop_01" ID="{A246B603-B327-4A02-B380-4FE7991E373C}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
-							</GroupingInfo>
-						</SwitchContainer>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambient_Emitters" ID="{609635BF-918E-4EB7-B0C6-0BF07D562D6A}" ShortID="371816434">

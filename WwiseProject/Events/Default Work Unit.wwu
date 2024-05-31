@@ -392,16 +392,56 @@
 										<Action Name="" ID="{F9D4BC45-6E0C-4518-948B-248EF07ADED9}" ShortID="46259881">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ambient Desert" ID="{647BFEF8-A90A-432C-98C1-4DE24709CB1E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+													<ObjectRef Name="Ambient Desert" ID="{695D5271-049A-4712-989C-9D7B844685A1}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Ambient_Region_Dungeon" ID="{5B811C74-2F59-48AD-9912-5F713D525E88}"/>
-								<Event Name="Ambient_Region_PineForest" ID="{E57FC4DF-025D-440F-B92B-B787DD447011}"/>
-								<Event Name="Ambient_Region_Village" ID="{F9F0DA3A-AA1E-44D8-A606-964AFDC9F561}"/>
-								<Event Name="Ambient_Region_Woodlands" ID="{1D98B068-0FDA-4670-9E32-3ABB7FC3397A}"/>
+								<Event Name="Ambient_Region_Dungeon" ID="{5B811C74-2F59-48AD-9912-5F713D525E88}">
+									<ChildrenList>
+										<Action Name="" ID="{AAA43DA9-06B8-4D1F-B485-79E95C15E568}" ShortID="556550053">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{6AFDBA9B-4F00-4F86-8B73-A8E19B7EB803}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Ambient_Region_PineForest" ID="{E57FC4DF-025D-440F-B92B-B787DD447011}">
+									<ChildrenList>
+										<Action Name="" ID="{6C807EDC-B5A0-4844-A59E-AF176A8E49F9}" ShortID="674871171">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_amb_pineforest_night_background_loop_01" ID="{26204116-0010-4F92-82A3-CBB23F26EE71}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Ambient_Region_Village" ID="{F9F0DA3A-AA1E-44D8-A606-964AFDC9F561}">
+									<ChildrenList>
+										<Action Name="" ID="{6FFF1F5A-12B3-4070-961E-16148B08314D}" ShortID="731724641">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambient Village" ID="{B33459B9-3904-46E6-B9F1-3038E385196A}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Ambient_Region_Woodlands" ID="{1D98B068-0FDA-4670-9E32-3ABB7FC3397A}">
+									<ChildrenList>
+										<Action Name="" ID="{2178235F-6FA5-4342-AD05-6D030C6BF440}" ShortID="865927170">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambient Forest" ID="{758A2924-45C9-41F3-8117-BC36031B0597}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -432,52 +472,10 @@
 						</Event>
 						<Event Name="Music_Region" ID="{7B8CAF97-135D-4A99-A0B1-EF4347A1EF14}">
 							<ChildrenList>
-								<Action Name="" ID="{6025F409-A2F2-4EFB-80DA-B75415C88B13}" ShortID="591155845">
+								<Action Name="" ID="{1FDB9F09-E691-4B02-ABB1-6ACBE5847B3F}" ShortID="802526415">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{0FD5A8B8-1680-4CE4-8B58-8D763167535D}" ShortID="897300371">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Desert_120BPM_4_4_L8M_P0" ID="{7B0D3194-5491-4B25-B396-0881699E0B90}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{D8F49C00-2BB6-425A-9B78-8584A9257401}" ShortID="674016500">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{F24F644E-BC86-4393-8956-FD0A6F84F37E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{96A9B932-A6E9-40AA-9278-12AC16B3EEB0}" ShortID="541215119">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{22DD65E7-0AAC-4C02-ABA6-D485A7D7B9FA}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{EFC4D472-A6E3-4567-AAD8-58DB07D0117E}" ShortID="911988623">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Village_120BPM_4_4_L8M_P1M" ID="{3807EF7D-D299-48FD-91DE-BB85CD4A8DA4}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{AFEF3FB8-4A26-4BF8-BC5A-0542083E5F58}" ShortID="729791508">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{D91AC4F9-A846-441F-80DB-6E889CAFE4B8}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{34F1969E-0152-4C57-A4AC-0E8DC9AD9FD9}" ShortID="949858621">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{F62F3CE3-6053-48F9-9C3E-B7EA45545CB2}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+											<ObjectRef Name="Explore" ID="{7C018C43-F669-431D-93D3-BD47AEB46A14}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
