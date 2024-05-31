@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2208964750	Ambient_Windmill			\Default Work Unit\SFX\Ambient\3D Emitters\Continuous\Ambient_Windmill	
+	2258053876	Ambient_River			\Default Work Unit\SFX\Ambient\3D Emitters\Continuous\Ambient_River	
+	2752753183	Ambient_Region_Village			\Default Work Unit\SFX\Ambient\Ambient_Region_Village	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	715746160	BAS_Water_River	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072160
+	730411849	BAS_WindMillBlade_02	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WindMillBlade\BAS_WindMillBlade_02		1163360
+	927528967	BAS_WindMillBlade_03	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WindMillBlade\BAS_WindMillBlade_03		352352
+	985204365	BAS_WindMillBlade_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WindMillBlade\BAS_WindMillBlade_01		1622112
+

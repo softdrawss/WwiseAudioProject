@@ -60,19 +60,33 @@
 					<ChildrenList>
 						<SoundBank Name="Credits" ID="{2E81DF82-1C27-47E5-BD9A-DF8A26301187}">
 							<ObjectInclusionList>
-								<ObjectRef Name="Music_TitleScreen" ID="{CE8F767A-6672-4807-A7E5-1A29696BC193}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Music_Credits" ID="{0F993D02-25E8-4D77-93BC-26B22661926E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="TitleScreen" ID="{F6EF6335-7986-40CE-9789-49D99C822C84}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Music_TitleScreen" ID="{CE8F767A-6672-4807-A7E5-1A29696BC193}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
 						<SoundBank Name="General" ID="{97EB60AF-5F7C-46E5-9FDA-0F3BF941E171}">
-							<ObjectInclusionList/>
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Campfire_Stop" ID="{BB1B9910-95B0-40D9-9DAA-E3E497EF9658}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Destruction_Container" ID="{7E56AA59-B14D-423C-B8EA-FFDABECD3FCC}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Campfire_Play" ID="{9BF2E0B7-39FF-4605-8385-4D58C00A86AB}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="UI_Inventory_Close" ID="{A811063B-2A36-4628-A7F5-22CA20A6532E}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Player_Footstep" ID="{0B34DE90-8060-46C9-B1AB-4E1AECD45059}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Lava" ID="{87772747-055B-4777-A610-0734E4493527}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="UI_QuestRoll_Close" ID="{387254B7-36ED-48D5-A5BF-AFBBF7CF7BB9}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="UI_Inventory_Open" ID="{25279CA7-1913-495A-8D61-A039E17AEAFB}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="UI_Inventory_Roll" ID="{1E7C0BD9-0AED-49DD-95A1-B9D67890BC6B}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Crystal_Hum" ID="{DE427565-AA3E-4C6E-B1AA-03B5056B0B68}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Torch" ID="{75BC63B7-1B99-4D12-B721-B54E59C2CCF9}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="UI_QuestRoll_Open" ID="{6ED09825-5732-4D46-8FBE-10423ED1A12F}" WorkUnitID="{78FC3EC6-5D9E-4AAA-8BE4-739BA81677AF}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>

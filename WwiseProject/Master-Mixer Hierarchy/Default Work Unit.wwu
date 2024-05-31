@@ -10,27 +10,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Cave" ID="{6C9DE802-6106-4F04-BE6F-5FDF48A460BA}"/>
-						<AuxBus Name="CaveEntrance" ID="{2D532C76-BE2F-4F30-A7C5-F13794ECD786}"/>
-						<AuxBus Name="Desert" ID="{CF86A814-8710-4774-A283-C13374B19873}"/>
-						<AuxBus Name="RoadToDesert" ID="{BB22FC17-C546-45F2-B01C-12748F186BDE}"/>
-						<AuxBus Name="PineForest" ID="{B250D8BE-2D53-435B-8B27-3976C9756234}"/>
-						<AuxBus Name="PineForest_Hut" ID="{E2F949A7-18D3-48D6-AA7E-30796B580EC5}"/>
-						<AuxBus Name="RoadToPineForest" ID="{5385F6E5-165F-484D-9C6F-5A3ABB96CA4B}"/>
 						<AuxBus Name="Training" ID="{E5E9317F-FCC4-485D-82DE-5E159249561B}"/>
 						<AuxBus Name="Village" ID="{768A1B9E-4544-477D-9D22-CD4826F04027}"/>
 						<AuxBus Name="WwizardHouse" ID="{8C5D229D-CD58-45A4-91B8-96D3F39C315E}"/>
-						<AuxBus Name="RoadToWoodlands" ID="{9B06C6C8-14F8-433D-9D1A-27A96C3F2DFB}"/>
-						<AuxBus Name="Woodlands" ID="{7B32E4C5-2A79-4825-B8E5-9491BE674799}"/>
-						<AuxBus Name="Dungeon_Core" ID="{870D9D87-9F32-46E5-8C3C-926905B9C9D8}"/>
-						<AuxBus Name="Dungeon_Entrance" ID="{AE5CC761-8BE1-4C3F-B8B3-14BFCBA0FD7D}"/>
-						<AuxBus Name="Dungeon_Forge" ID="{9A424169-7C58-4531-AF16-15DF1AD35408}"/>
-						<AuxBus Name="Dungeon_Library" ID="{622C90DC-253C-42C4-8AAC-DEBC2923B24D}"/>
-						<AuxBus Name="Dungeon_Library_Statue" ID="{31CB2388-0E0D-4B0B-B94A-3B7A72A2C1E0}"/>
-						<AuxBus Name="Dungeon_MezzanineRoom" ID="{B6CF3542-0F2C-4D22-9941-D5ED4B8659A8}"/>
-						<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{B981560C-380D-4C16-B168-A293E7ED3B88}"/>
-						<AuxBus Name="Dungeon_PathToForge" ID="{15BE28DE-9730-47EA-B5CA-D427CC16B961}"/>
-						<AuxBus Name="Dungeon_RoadToCore" ID="{4658A615-8E2A-4582-99C7-AC73EC0CE4B8}"/>
 						<Bus Name="Music Audio Bus" ID="{C9304553-7E92-4DAB-BC84-B46B5496BA46}">
 							<ObjectLists>
 								<ObjectList Name="RTPC">
@@ -71,6 +53,220 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
+						</Bus>
+						<Bus Name="Region Cave" ID="{B163BB72-109B-4BE6-9549-273334E87787}">
+							<ChildrenList>
+								<AuxBus Name="CaveEntrance" ID="{2D532C76-BE2F-4F30-A7C5-F13794ECD786}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{C6622B1E-61A4-4EF0-8BCC-EA2184A7DFA7}" ShortID="1065027160">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Cave" ID="{6C9DE802-6106-4F04-BE6F-5FDF48A460BA}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{5D743349-6F1F-49D9-94BC-0249B714E833}" ShortID="568888302">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Region Desert" ID="{4F22B03C-89B6-4685-94B2-66EA3A5E536C}">
+							<ChildrenList>
+								<AuxBus Name="Desert" ID="{CF86A814-8710-4774-A283-C13374B19873}"/>
+								<AuxBus Name="RoadToDesert" ID="{BB22FC17-C546-45F2-B01C-12748F186BDE}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Region Dungeon" ID="{CE5E1FC4-9410-4810-982C-1F0C7AFC1DE6}">
+							<ChildrenList>
+								<AuxBus Name="Dungeon_Library" ID="{622C90DC-253C-42C4-8AAC-DEBC2923B24D}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{1C823513-DE5B-4B4C-8E1F-A13D6B9CC0E5}" ShortID="175052178">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Library_Statue" ID="{31CB2388-0E0D-4B0B-B94A-3B7A72A2C1E0}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{5A06D263-E46B-4529-BD08-99675EB6A57D}" ShortID="805486896">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Forge" ID="{9A424169-7C58-4531-AF16-15DF1AD35408}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{72F05E81-B421-4750-B247-F7F9AD8A894C}" ShortID="699030343">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_PathToForge" ID="{15BE28DE-9730-47EA-B5CA-D427CC16B961}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{37842C8D-FAAB-4239-8C72-E53E06DCDEF8}" ShortID="212069314">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Core" ID="{870D9D87-9F32-46E5-8C3C-926905B9C9D8}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{21DA9D93-6677-4547-9881-DDB99E650BAF}" ShortID="765318394">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_RoadToCore" ID="{4658A615-8E2A-4582-99C7-AC73EC0CE4B8}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{973DCB8D-489E-4651-BF87-354B691A3652}" ShortID="309517725">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_Entrance" ID="{AE5CC761-8BE1-4C3F-B8B3-14BFCBA0FD7D}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{60573A46-B5F5-4FDD-B205-CE21FE53503E}" ShortID="1055397448">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_MezzanineRoom" ID="{B6CF3542-0F2C-4D22-9941-D5ED4B8659A8}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{37126BF9-EE44-4526-9791-FCBCD9C51AD1}" ShortID="118489111">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{B981560C-380D-4C16-B168-A293E7ED3B88}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{E9BCD3B5-55F6-4445-8A91-745D1B7578A6}" ShortID="816665534">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Region PineForest" ID="{7D604DB9-8F31-45DC-A486-4A130978B45F}">
+							<ChildrenList>
+								<AuxBus Name="PineForest" ID="{B250D8BE-2D53-435B-8B27-3976C9756234}"/>
+								<AuxBus Name="PineForest_Hut" ID="{E2F949A7-18D3-48D6-AA7E-30796B580EC5}"/>
+								<AuxBus Name="RoadToPineForest" ID="{5385F6E5-165F-484D-9C6F-5A3ABB96CA4B}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Region Woodlands" ID="{E2564740-16CA-41E3-ABC7-FDA70971F94D}">
+							<ChildrenList>
+								<AuxBus Name="RoadToWoodlands" ID="{9B06C6C8-14F8-433D-9D1A-27A96C3F2DFB}"/>
+								<AuxBus Name="Woodlands" ID="{7B32E4C5-2A79-4825-B8E5-9491BE674799}"/>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists>

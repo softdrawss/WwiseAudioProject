@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1999886838	Destruction_Rock_Destroy			\Default Work Unit\SFX\Destruction\Destruction_Rock_Destroy	
+	4077685701	Ambient_Region_Dungeon			\Default Work Unit\SFX\Ambient\Ambient_Region_Dungeon	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	422500113	BAS_Destroy_Rock_03	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock\Rock\BAS_Destroy_Rock_03		87136
+	896141169	BAS_Destroy_Rock_01	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock\Rock\BAS_Destroy_Rock_01		105568
+	917555551	BAS_Destroy_Rock_02	C:\Users\julia\OneDrive\Documents\GitHub\WwiseAudioProject\WwiseProject\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock\Rock\BAS_Destroy_Rock_02		119904
+

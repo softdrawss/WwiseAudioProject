@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="WwiseProject" GUID="{06FF7F6D-F791-4266-B629-C7699605F1CE}" Generator="2023.1.0.8367"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{3774BE37-54DF-4902-BBBF-194C6A69F6D9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{D2C66665-9DBB-46ED-8481-394A77D28134}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{99033BA7-2801-6B9F-9887-410351F378BB}</FileHash>
+</ProjectInfo>

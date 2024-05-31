@@ -1,0 +1,68 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3219147252	DayOrNight			\Default Work Unit\DayOrNight	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
+	2642438544	MenuSlider_Music_Volume			\Default Work Unit\MenuSlider_Music_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	90087406	Region Woodlands			\Default Work Unit\Master Audio Bus\Region Woodlands	
+	493417818	Music Audio Bus			\Default Work Unit\Master Audio Bus\Music Audio Bus	
+	589512943	Region Dungeon			\Default Work Unit\Master Audio Bus\Region Dungeon	
+	2204385978	Region PineForest			\Default Work Unit\Master Audio Bus\Region PineForest	
+	2976243576	Region Cave			\Default Work Unit\Master Audio Bus\Region Cave	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4023542660	Region Desert			\Default Work Unit\Master Audio Bus\Region Desert	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	243931001	Dungeon_Forge			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_Forge	
+	425911480	Dungeon_Library_Statue			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_Library_Statue	
+	567469275	Dungeon_PathToForge			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_PathToForge	
+	1156828694	Dungeon_Entrance			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_Entrance	
+	1421251628	Woodlands			\Default Work Unit\Master Audio Bus\Region Woodlands\Woodlands	
+	1479780851	RoadToWoodlands			\Default Work Unit\Master Audio Bus\Region Woodlands\RoadToWoodlands	
+	1750943985	RoadToPineForest			\Default Work Unit\Master Audio Bus\Region PineForest\RoadToPineForest	
+	1850388778	Desert			\Default Work Unit\Master Audio Bus\Region Desert\Desert	
+	1941785149	Dungeon_Library			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_Library	
+	2026127448	Dungeon_MezzanineRoomEntrance			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_MezzanineRoomEntrance	
+	2106540524	Dungeon_RoadToCore			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_RoadToCore	
+	2213850905	Dungeon_Core			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_Core	
+	2482365692	PineForest			\Default Work Unit\Master Audio Bus\Region PineForest\PineForest	
+	2598995339	Training			\Default Work Unit\Master Audio Bus\Training	
+	3082052254	PineForest_Hut			\Default Work Unit\Master Audio Bus\Region PineForest\PineForest_Hut	
+	3132368115	WwizardHouse			\Default Work Unit\Master Audio Bus\WwizardHouse	
+	3352684520	CaveEntrance			\Default Work Unit\Master Audio Bus\Region Cave\CaveEntrance	
+	3497669663	RoadToDesert			\Default Work Unit\Master Audio Bus\Region Desert\RoadToDesert	
+	3945572659	Village			\Default Work Unit\Master Audio Bus\Village	
+	4122393694	Cave			\Default Work Unit\Master Audio Bus\Region Cave\Cave	
+	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\Region Dungeon\Dungeon_MezzanineRoom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
