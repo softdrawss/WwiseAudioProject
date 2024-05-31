@@ -253,13 +253,23 @@
 										</Folder>
 									</ChildrenList>
 								</Folder>
-								<Event Name="Ambient_Region_Cave" ID="{3D757382-80B7-403B-8AE6-89FB125E3FDB}"/>
+								<Event Name="Ambient_Region_Cave" ID="{3D757382-80B7-403B-8AE6-89FB125E3FDB}">
+									<ChildrenList>
+										<Action Name="" ID="{033B9E22-C98F-4A9E-A98B-5F1DFFAEC9E5}" ShortID="630064922">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_amb_cave_background_LP" ID="{E322E9A5-59D7-4A4F-8A3C-9129ECD855C4}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Ambient_Region_Desert" ID="{05A9C0E5-D7D1-4AF2-A32C-8DB3F0471437}">
 									<ChildrenList>
 										<Action Name="" ID="{F9D4BC45-6E0C-4518-948B-248EF07ADED9}" ShortID="46259881">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ambient Desert" ID="{695D5271-049A-4712-989C-9D7B844685A1}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
+													<ObjectRef Name="Ambient Desert" ID="{647BFEF8-A90A-432C-98C1-4DE24709CB1E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -267,17 +277,7 @@
 								</Event>
 								<Event Name="Ambient_Region_Dungeon" ID="{5B811C74-2F59-48AD-9912-5F713D525E88}"/>
 								<Event Name="Ambient_Region_PineForest" ID="{E57FC4DF-025D-440F-B92B-B787DD447011}"/>
-								<Event Name="Ambient_Region_Village" ID="{F9F0DA3A-AA1E-44D8-A606-964AFDC9F561}">
-									<ChildrenList>
-										<Action Name="" ID="{EB5EC27B-8728-409E-8C6E-3A1881688D45}" ShortID="13320660">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Ambient Village" ID="{B33459B9-3904-46E6-B9F1-3038E385196A}" WorkUnitID="{C1B5DCA8-6DDF-4BAC-A4C9-5FD42923D241}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								<Event Name="Ambient_Region_Village" ID="{F9F0DA3A-AA1E-44D8-A606-964AFDC9F561}"/>
 								<Event Name="Ambient_Region_Woodlands" ID="{1D98B068-0FDA-4670-9E32-3ABB7FC3397A}"/>
 							</ChildrenList>
 						</Folder>

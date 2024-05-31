@@ -265,6 +265,338 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Ambient_Background" ID="{8DBCDF16-2468-40C7-8655-06137AC15C79}" ShortID="268700988">
+					<ChildrenList>
+						<Sound Name="amb_forest_night_background_loop_02" ID="{7DA33F81-146A-455A-9777-0DBB02ED0770}" ShortID="125261565">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{8661AC5D-3388-415E-89F0-A4E0A1D471C5}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\amb_forest_night_background_loop_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058976630"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_forest_night_background_loop_02" ID="{8661AC5D-3388-415E-89F0-A4E0A1D471C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_forest_night_background_loop_04" ID="{FB95690E-7B3A-4A19-B1A9-71FB662F26C8}" ShortID="208145384">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_forest_night_background_loop_04" ID="{6086146C-3DD9-4294-A650-F2E1CFFD9E97}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\amb_forest_night_background_loop_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="644519943"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_forest_night_background_loop_04" ID="{6086146C-3DD9-4294-A650-F2E1CFFD9E97}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_cave_background_LP" ID="{E322E9A5-59D7-4A4F-8A3C-9129ECD855C4}" ShortID="65276833">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{4CAA8D8C-9F04-4A56-8334-E95B821006BA}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_cave_background_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="231572771"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_cave_background_LP" ID="{4CAA8D8C-9F04-4A56-8334-E95B821006BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{6AFDBA9B-4F00-4F86-8B73-A8E19B7EB803}" ShortID="432216517">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{E2C05C2F-ACD2-4735-BDA1-09376FF404DC}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="940096052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{E2C05C2F-ACD2-4735-BDA1-09376FF404DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_forest_day_background_loop_01" ID="{33C4374E-1710-4293-81C2-3742B5EE9CAC}" ShortID="8809744">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{6E980323-C247-4EAA-B1E9-3086618A15B5}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="853189088"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{6E980323-C247-4EAA-B1E9-3086618A15B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{26204116-0010-4F92-82A3-CBB23F26EE71}" ShortID="412883160">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{0E28B7B9-BC66-4D80-A353-FB1676092B27}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="544962522"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{0E28B7B9-BC66-4D80-A353-FB1676092B27}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="Ambient Desert" ID="{647BFEF8-A90A-432C-98C1-4DE24709CB1E}" ShortID="723860975">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DayOrNight" ID="{F44C98A6-AD3E-4B8D-B4C2-3FA422B48385}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_amb_desert_day_background_loop_01" ID="{89941EFB-40F6-4C20-8C25-1F19948D38AD}" ShortID="328135495">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_desert_day_background_loop_01" ID="{6205668D-F0F2-4279-B389-B0F890C3D4D2}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\BAS_amb_desert_day_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="58690495"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_desert_day_background_loop_01" ID="{6205668D-F0F2-4279-B389-B0F890C3D4D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_amb_desert_night_background_loop_01" ID="{96880ABB-BAB3-4270-9094-521971FE58A0}" ShortID="429434822">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_desert_night_background_loop_01" ID="{E750EB81-C8E0-47A0-B3B3-FA6DD6A2E822}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\BAS_amb_desert_night_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="241983269"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_desert_night_background_loop_01" ID="{E750EB81-C8E0-47A0-B3B3-FA6DD6A2E822}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_amb_desert_night_background_loop_01" ID="{96880ABB-BAB3-4270-9094-521971FE58A0}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_amb_desert_day_background_loop_01" ID="{89941EFB-40F6-4C20-8C25-1F19948D38AD}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Day" ID="{8114F560-4054-4529-8D76-1A3B2A655225}"/>
+										<ItemList>
+											<ItemRef Name="BAS_amb_desert_day_background_loop_01" ID="{89941EFB-40F6-4C20-8C25-1F19948D38AD}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Night" ID="{3E1FDFDB-B986-4F2F-BACB-254C324B22F4}"/>
+										<ItemList>
+											<ItemRef Name="BAS_amb_desert_night_background_loop_01" ID="{96880ABB-BAB3-4270-9094-521971FE58A0}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Ambient Village" ID="{068C9607-4171-4E34-B642-F58DC7F2BB29}" ShortID="492485069">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="DayOrNight" ID="{F44C98A6-AD3E-4B8D-B4C2-3FA422B48385}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_amb_village_night_background_loop_01" ID="{A246B603-B327-4A02-B380-4FE7991E373C}" ShortID="140571318">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{8DAB8B7B-7503-47EB-B10B-C0D6E6C3358C}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="407670909"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{8DAB8B7B-7503-47EB-B10B-C0D6E6C3358C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_amb_village_day_background_loop_01" ID="{5906DD18-F86E-4B5F-93D2-255FA26F6F97}" ShortID="572747021">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_village_day_background_loop_01" ID="{BE29B802-112B-4CDC-AE5A-0BEEFC2CBE7E}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Background\BAS_amb_village_day_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="709686950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{BE29B802-112B-4CDC-AE5A-0BEEFC2CBE7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_amb_village_night_background_loop_01" ID="{A246B603-B327-4A02-B380-4FE7991E373C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="BAS_amb_village_day_background_loop_01" ID="{5906DD18-F86E-4B5F-93D2-255FA26F6F97}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Day" ID="{8114F560-4054-4529-8D76-1A3B2A655225}"/>
+										<ItemList>
+											<ItemRef Name="BAS_amb_village_day_background_loop_01" ID="{5906DD18-F86E-4B5F-93D2-255FA26F6F97}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Night" ID="{3E1FDFDB-B986-4F2F-BACB-254C324B22F4}"/>
+										<ItemList>
+											<ItemRef Name="BAS_amb_village_night_background_loop_01" ID="{A246B603-B327-4A02-B380-4FE7991E373C}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Ambient_Emitters" ID="{609635BF-918E-4EB7-B0C6-0BF07D562D6A}" ShortID="371816434">
 					<ChildrenList>
 						<Sound Name="BAS_Crystal_Ringing" ID="{4907F8B0-5C28-49FB-AABF-EAB0654B15CC}" ShortID="718193907">
@@ -6071,6 +6403,534 @@
 								<ActiveSource Name="BAS_hitCrate_001" ID="{B7B91EE7-2D84-4A30-BB21-98E0EAFC756D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{61102664-3D64-4C2C-8BD7-05E29D5F7F7F}" ShortID="174757372">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{A0FA1AE6-FC9A-40AE-8BC4-0B3A2A529ACF}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Barrel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="593485802"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{A0FA1AE6-FC9A-40AE-8BC4-0B3A2A529ACF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{C8F7486A-E75A-4BD3-937E-CA35C2B69E15}" ShortID="787434472">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{1194379F-6557-485F-BF98-E0F91C773B72}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Crate.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="504492829"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{1194379F-6557-485F-BF98-E0F91C773B72}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4D565E4D-78EB-427B-B53B-78332018DB9A}" ShortID="567391195">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4FB9AF92-EAFE-496A-A5BC-42C58218F232}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Dirt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="113392712"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4FB9AF92-EAFE-496A-A5BC-42C58218F232}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{801EF7C5-433B-4706-BE76-049D78777F9C}" ShortID="604752052">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{7CFD9EFB-4F5C-4168-95F2-4B6B017BE1BC}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Grass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="381240426"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{7CFD9EFB-4F5C-4168-95F2-4B6B017BE1BC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{60ECA4D9-DC4B-42FB-9410-B675AC6260C3}" ShortID="286731513">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{6B26BD47-5FDA-4549-AA03-FDDA77D614FF}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Leaves.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599293687"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{6B26BD47-5FDA-4549-AA03-FDDA77D614FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{8BA9EB29-BD52-461A-9329-D232079DAEA3}" ShortID="644167183">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{9D329FBB-4D45-41C9-B8A0-6F8F213BC990}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Stone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="974074840"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{9D329FBB-4D45-41C9-B8A0-6F8F213BC990}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DA7B8397-B39C-47FB-ABD3-A95E0FBCF8B7}" ShortID="336038044">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DADE595F-4C74-43E7-A7A6-8268BAA64937}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Barrel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="795093728"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DADE595F-4C74-43E7-A7A6-8268BAA64937}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{F7D56FFF-2561-48CF-AAAD-C88421FD6889}" ShortID="801440508">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{00A75CDF-A335-4EDC-AC68-8CA8D2FC4772}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Crate.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="920421179"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{00A75CDF-A335-4EDC-AC68-8CA8D2FC4772}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{17F2A98D-38E3-4231-B7C6-03C62BCC2BFD}" ShortID="628154125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{C4110936-12D3-40CD-8C66-DBE52DFBE7FF}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Dirt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="209645904"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{C4110936-12D3-40CD-8C66-DBE52DFBE7FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{74AD97BC-0EEA-4AC9-9FE5-3F0732EDB0C5}" ShortID="830976934">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{DF1D46E1-F198-4880-9B9F-7BACF6CF77E0}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Grass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994303853"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{DF1D46E1-F198-4880-9B9F-7BACF6CF77E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{FAECE507-B278-409D-8A18-4B1222DD9F4E}" ShortID="971045795">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{4186A3AE-3742-4505-A0BC-84C7B3C425F3}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Leaves.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668940039"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{4186A3AE-3742-4505-A0BC-84C7B3C425F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{03E443AD-BC90-4BB1-82D1-2AC810D1F262}" ShortID="1008507675">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{21D6AF82-BAE5-4F6B-9488-7F4487021FEF}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Stone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="440148744"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{21D6AF82-BAE5-4F6B-9488-7F4487021FEF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{4277C605-38E5-4642-89F5-A40CC2B82B69}" ShortID="321445936">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{1039DE66-D411-4AE3-863A-2249D3EF6B0C}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Wood.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="132283939"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{1039DE66-D411-4AE3-863A-2249D3EF6B0C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{2A298454-6073-4782-9C46-5612C64B2540}" ShortID="832409738">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{40A1A999-E1C5-4BA9-AE6E-9D80EFEF7AE2}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Hammer_SurfaceType_Barrel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="338247116"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{40A1A999-E1C5-4BA9-AE6E-9D80EFEF7AE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{61C145F7-C912-48A2-BF6E-AB5EC8FEE7AB}" ShortID="56341813">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{910684C5-549F-40A9-B360-A870D0B35857}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Hammer_SurfaceType_Crate.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="375093906"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{910684C5-549F-40A9-B360-A870D0B35857}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{527A29CD-2B30-428A-A962-9B480555771E}" ShortID="233174316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{F6B45B4F-9DC2-495E-9ACB-F48C0D1658D0}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="889365261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{F6B45B4F-9DC2-495E-9ACB-F48C0D1658D0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{ADEB0DD2-3B34-4B37-8555-87F7E093B714}" ShortID="248253449">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{F0E69E93-83FC-40E7-B1FE-15267FB81A1D}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_PickAxe_SurfaceType_Crate.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="712230498"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{F0E69E93-83FC-40E7-B1FE-15267FB81A1D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{C521E982-A483-46FC-B1B6-74EE7D34C4F8}" ShortID="355436507">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{2A82BF26-C549-4489-B125-7A3C0716F86F}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Barrel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="400262381"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{2A82BF26-C549-4489-B125-7A3C0716F86F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{C4DF63AA-7A2F-4CC7-8C23-178A7F606E9C}" ShortID="1028452082">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{B8B35E4D-4F0F-4BD7-AED6-45C52D0FCAE0}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Crate.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="385188957"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{B8B35E4D-4F0F-4BD7-AED6-45C52D0FCAE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{F1899F3B-DB7A-4A4C-BE4D-28FF3414E943}" ShortID="553636345">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{648B54C3-D0EB-4E72-A515-4E77F6DF74B4}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Dirt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="792706992"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{648B54C3-D0EB-4E72-A515-4E77F6DF74B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{06119F7D-82D4-4102-99CE-14F18DF4E19D}" ShortID="878195537">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{E7DF4786-F477-48E9-BC40-DB75EBBD8AD5}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Grass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="42952509"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{E7DF4786-F477-48E9-BC40-DB75EBBD8AD5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{FBD1524C-3D5A-471C-B72D-E050DF1BD8FE}" ShortID="907873199">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{71EFAD4E-FB78-4B8F-A7C8-345E2477F22B}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Leaves.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="325401705"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{71EFAD4E-FB78-4B8F-A7C8-345E2477F22B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{70C55FAB-0D6C-46BC-8128-22C859CBA4E1}" ShortID="505654066">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{DFFCE7AF-D50C-4489-AF42-EBE1AEA70FE7}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Stone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="492205494"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{DFFCE7AF-D50C-4489-AF42-EBE1AEA70FE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{8A96AC25-49ED-49A0-B4FB-E38DD626665B}" ShortID="697818760">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{5F3255F5-4414-473F-96B8-8282A2F746E8}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Wood.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="523974195"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{5F3255F5-4414-473F-96B8-8282A2F746E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 						<Sound Name="Impact_Bump" ID="{76E746D1-7B47-45BB-9230-C31BCF137062}" ShortID="379133137">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6137,889 +6997,6 @@
 								<ActiveSource Name="RockImpact" ID="{970D042F-BBD4-4F85-B646-98C5072A0286}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<SwitchContainer Name="Weapon" ID="{B68F778D-5492-4B16-BCF5-A12A043143FE}" ShortID="227288754">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="Player_Weapon_Type" ID="{3B245DCD-30B2-4D76-96F3-CCBE9377437C}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<SwitchContainer Name="Axe" ID="{992B41C6-054F-456D-AD65-CCA8B36E3C8A}" ShortID="712574887">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Surface_Type" ID="{8FCE8CD5-B1D6-4EFE-9A08-B58237BC2B4B}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{61102664-3D64-4C2C-8BD7-05E29D5F7F7F}" ShortID="174757372">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{A0FA1AE6-FC9A-40AE-8BC4-0B3A2A529ACF}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Barrel.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="593485802"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{A0FA1AE6-FC9A-40AE-8BC4-0B3A2A529ACF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{C8F7486A-E75A-4BD3-937E-CA35C2B69E15}" ShortID="787434472">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{1194379F-6557-485F-BF98-E0F91C773B72}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Crate.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="504492829"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{1194379F-6557-485F-BF98-E0F91C773B72}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4D565E4D-78EB-427B-B53B-78332018DB9A}" ShortID="567391195">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4FB9AF92-EAFE-496A-A5BC-42C58218F232}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Dirt.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="113392712"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4FB9AF92-EAFE-496A-A5BC-42C58218F232}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{60ECA4D9-DC4B-42FB-9410-B675AC6260C3}" ShortID="286731513">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{6B26BD47-5FDA-4549-AA03-FDDA77D614FF}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Leaves.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="599293687"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{6B26BD47-5FDA-4549-AA03-FDDA77D614FF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{801EF7C5-433B-4706-BE76-049D78777F9C}" ShortID="604752052">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{7CFD9EFB-4F5C-4168-95F2-4B6B017BE1BC}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Grass.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="381240426"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{7CFD9EFB-4F5C-4168-95F2-4B6B017BE1BC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{8BA9EB29-BD52-461A-9329-D232079DAEA3}" ShortID="644167183">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{9D329FBB-4D45-41C9-B8A0-6F8F213BC990}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Axe_SurfaceType_Stone.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="974074840"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{9D329FBB-4D45-41C9-B8A0-6F8F213BC990}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{8BA9EB29-BD52-461A-9329-D232079DAEA3}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4D565E4D-78EB-427B-B53B-78332018DB9A}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{61102664-3D64-4C2C-8BD7-05E29D5F7F7F}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{C8F7486A-E75A-4BD3-937E-CA35C2B69E15}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{801EF7C5-433B-4706-BE76-049D78777F9C}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{60ECA4D9-DC4B-42FB-9410-B675AC6260C3}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Crate" ID="{0A997B2A-E193-4352-8479-6F78BDACDCFA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{C8F7486A-E75A-4BD3-937E-CA35C2B69E15}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Dirt" ID="{A3468C78-B08F-4151-B5D0-11236E29667F}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{4D565E4D-78EB-427B-B53B-78332018DB9A}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Grass" ID="{A47C5A8C-042F-4EB5-8432-AF58DD4319E3}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Grass" ID="{801EF7C5-433B-4706-BE76-049D78777F9C}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Stone" ID="{3200E897-496C-465C-9FA8-18130AA617D0}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{8BA9EB29-BD52-461A-9329-D232079DAEA3}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Leaves" ID="{F1A7CEAE-B4A1-4A5D-B0E7-1F4BDD9BB7AA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Leaves" ID="{60ECA4D9-DC4B-42FB-9410-B675AC6260C3}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Barrel" ID="{FAF93CB5-8DB9-460D-89A6-48F44E5AA7C4}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{61102664-3D64-4C2C-8BD7-05E29D5F7F7F}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
-								<SwitchContainer Name="Dagger" ID="{6C47C02F-69BC-4AD1-A40B-67E6BF088619}" ShortID="973410666">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Surface_Type" ID="{8FCE8CD5-B1D6-4EFE-9A08-B58237BC2B4B}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{F7D56FFF-2561-48CF-AAAD-C88421FD6889}" ShortID="801440508">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{00A75CDF-A335-4EDC-AC68-8CA8D2FC4772}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Crate.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="920421179"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{00A75CDF-A335-4EDC-AC68-8CA8D2FC4772}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{03E443AD-BC90-4BB1-82D1-2AC810D1F262}" ShortID="1008507675">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{21D6AF82-BAE5-4F6B-9488-7F4487021FEF}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Stone.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="440148744"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{21D6AF82-BAE5-4F6B-9488-7F4487021FEF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{FAECE507-B278-409D-8A18-4B1222DD9F4E}" ShortID="971045795">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{4186A3AE-3742-4505-A0BC-84C7B3C425F3}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Leaves.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="668940039"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{4186A3AE-3742-4505-A0BC-84C7B3C425F3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{17F2A98D-38E3-4231-B7C6-03C62BCC2BFD}" ShortID="628154125">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{C4110936-12D3-40CD-8C66-DBE52DFBE7FF}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Dirt.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="209645904"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{C4110936-12D3-40CD-8C66-DBE52DFBE7FF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{74AD97BC-0EEA-4AC9-9FE5-3F0732EDB0C5}" ShortID="830976934">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{DF1D46E1-F198-4880-9B9F-7BACF6CF77E0}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Grass.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="994303853"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{DF1D46E1-F198-4880-9B9F-7BACF6CF77E0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DA7B8397-B39C-47FB-ABD3-A95E0FBCF8B7}" ShortID="336038044">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DADE595F-4C74-43E7-A7A6-8268BAA64937}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Barrel.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="795093728"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DADE595F-4C74-43E7-A7A6-8268BAA64937}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{4277C605-38E5-4642-89F5-A40CC2B82B69}" ShortID="321445936">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{1039DE66-D411-4AE3-863A-2249D3EF6B0C}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Dagger_SurfaceType_Wood.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="132283939"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{1039DE66-D411-4AE3-863A-2249D3EF6B0C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{4277C605-38E5-4642-89F5-A40CC2B82B69}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{FAECE507-B278-409D-8A18-4B1222DD9F4E}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{17F2A98D-38E3-4231-B7C6-03C62BCC2BFD}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DA7B8397-B39C-47FB-ABD3-A95E0FBCF8B7}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{03E443AD-BC90-4BB1-82D1-2AC810D1F262}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{74AD97BC-0EEA-4AC9-9FE5-3F0732EDB0C5}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{F7D56FFF-2561-48CF-AAAD-C88421FD6889}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Crate" ID="{0A997B2A-E193-4352-8479-6F78BDACDCFA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Crate" ID="{F7D56FFF-2561-48CF-AAAD-C88421FD6889}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Wood" ID="{3AF4E46C-2E13-42A5-9304-75F4A730CAB0}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Wood" ID="{4277C605-38E5-4642-89F5-A40CC2B82B69}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Dirt" ID="{A3468C78-B08F-4151-B5D0-11236E29667F}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{17F2A98D-38E3-4231-B7C6-03C62BCC2BFD}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Grass" ID="{A47C5A8C-042F-4EB5-8432-AF58DD4319E3}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Grass" ID="{74AD97BC-0EEA-4AC9-9FE5-3F0732EDB0C5}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Stone" ID="{3200E897-496C-465C-9FA8-18130AA617D0}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{03E443AD-BC90-4BB1-82D1-2AC810D1F262}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Leaves" ID="{F1A7CEAE-B4A1-4A5D-B0E7-1F4BDD9BB7AA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Leaves" ID="{FAECE507-B278-409D-8A18-4B1222DD9F4E}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Barrel" ID="{FAF93CB5-8DB9-460D-89A6-48F44E5AA7C4}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{DA7B8397-B39C-47FB-ABD3-A95E0FBCF8B7}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
-								<SwitchContainer Name="Hammer" ID="{F727EB9D-4107-46E0-9970-AE6BBFC26B43}" ShortID="1010140774">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Surface_Type" ID="{8FCE8CD5-B1D6-4EFE-9A08-B58237BC2B4B}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{2A298454-6073-4782-9C46-5612C64B2540}" ShortID="832409738">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{40A1A999-E1C5-4BA9-AE6E-9D80EFEF7AE2}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Hammer_SurfaceType_Barrel.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="338247116"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{40A1A999-E1C5-4BA9-AE6E-9D80EFEF7AE2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{61C145F7-C912-48A2-BF6E-AB5EC8FEE7AB}" ShortID="56341813">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{910684C5-549F-40A9-B360-A870D0B35857}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Hammer_SurfaceType_Crate.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="375093906"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{910684C5-549F-40A9-B360-A870D0B35857}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{2A298454-6073-4782-9C46-5612C64B2540}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{61C145F7-C912-48A2-BF6E-AB5EC8FEE7AB}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Crate" ID="{0A997B2A-E193-4352-8479-6F78BDACDCFA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Crate" ID="{61C145F7-C912-48A2-BF6E-AB5EC8FEE7AB}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Barrel" ID="{FAF93CB5-8DB9-460D-89A6-48F44E5AA7C4}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Hammer_SurfaceType_Barrel" ID="{2A298454-6073-4782-9C46-5612C64B2540}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
-								<SwitchContainer Name="Pickaxe" ID="{D5BF38B0-0F23-4498-A881-56D8FD702456}" ShortID="245524027">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Surface_Type" ID="{8FCE8CD5-B1D6-4EFE-9A08-B58237BC2B4B}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{527A29CD-2B30-428A-A962-9B480555771E}" ShortID="233174316">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{F6B45B4F-9DC2-495E-9ACB-F48C0D1658D0}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="889365261"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{F6B45B4F-9DC2-495E-9ACB-F48C0D1658D0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{ADEB0DD2-3B34-4B37-8555-87F7E093B714}" ShortID="248253449">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{F0E69E93-83FC-40E7-B1FE-15267FB81A1D}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_PickAxe_SurfaceType_Crate.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="712230498"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{F0E69E93-83FC-40E7-B1FE-15267FB81A1D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{527A29CD-2B30-428A-A962-9B480555771E}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{ADEB0DD2-3B34-4B37-8555-87F7E093B714}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Crate" ID="{0A997B2A-E193-4352-8479-6F78BDACDCFA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Crate" ID="{ADEB0DD2-3B34-4B37-8555-87F7E093B714}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Barrel" ID="{FAF93CB5-8DB9-460D-89A6-48F44E5AA7C4}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_PickAxe_SurfaceType_Barrel" ID="{527A29CD-2B30-428A-A962-9B480555771E}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
-								<SwitchContainer Name="Sword" ID="{61662235-14FC-4087-A350-ED138919ACB3}" ShortID="788461954">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Surface_Type" ID="{8FCE8CD5-B1D6-4EFE-9A08-B58237BC2B4B}" WorkUnitID="{6D0E7277-4194-424B-B033-7E6E9D4FCE5E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{C4DF63AA-7A2F-4CC7-8C23-178A7F606E9C}" ShortID="1028452082">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{B8B35E4D-4F0F-4BD7-AED6-45C52D0FCAE0}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Crate.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="385188957"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{B8B35E4D-4F0F-4BD7-AED6-45C52D0FCAE0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{70C55FAB-0D6C-46BC-8128-22C859CBA4E1}" ShortID="505654066">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{DFFCE7AF-D50C-4489-AF42-EBE1AEA70FE7}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Stone.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="492205494"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{DFFCE7AF-D50C-4489-AF42-EBE1AEA70FE7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{C521E982-A483-46FC-B1B6-74EE7D34C4F8}" ShortID="355436507">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{2A82BF26-C549-4489-B125-7A3C0716F86F}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Barrel.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="400262381"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{2A82BF26-C549-4489-B125-7A3C0716F86F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{F1899F3B-DB7A-4A4C-BE4D-28FF3414E943}" ShortID="553636345">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{648B54C3-D0EB-4E72-A515-4E77F6DF74B4}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Dirt.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="792706992"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{648B54C3-D0EB-4E72-A515-4E77F6DF74B4}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{FBD1524C-3D5A-471C-B72D-E050DF1BD8FE}" ShortID="907873199">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{71EFAD4E-FB78-4B8F-A7C8-345E2477F22B}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Leaves.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="325401705"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{71EFAD4E-FB78-4B8F-A7C8-345E2477F22B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{06119F7D-82D4-4102-99CE-14F18DF4E19D}" ShortID="878195537">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{E7DF4786-F477-48E9-BC40-DB75EBBD8AD5}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Grass.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="42952509"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{E7DF4786-F477-48E9-BC40-DB75EBBD8AD5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{8A96AC25-49ED-49A0-B4FB-E38DD626665B}" ShortID="697818760">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{5F3255F5-4414-473F-96B8-8282A2F746E8}">
-													<Language>SFX</Language>
-													<AudioFile>Impacts\BAS_Impact_Sword_SurfaceType_Wood.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="523974195"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{5F3255F5-4414-473F-96B8-8282A2F746E8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{8A96AC25-49ED-49A0-B4FB-E38DD626665B}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{F1899F3B-DB7A-4A4C-BE4D-28FF3414E943}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{FBD1524C-3D5A-471C-B72D-E050DF1BD8FE}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{06119F7D-82D4-4102-99CE-14F18DF4E19D}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{C521E982-A483-46FC-B1B6-74EE7D34C4F8}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{C4DF63AA-7A2F-4CC7-8C23-178A7F606E9C}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{70C55FAB-0D6C-46BC-8128-22C859CBA4E1}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Crate" ID="{0A997B2A-E193-4352-8479-6F78BDACDCFA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Crate" ID="{C4DF63AA-7A2F-4CC7-8C23-178A7F606E9C}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Wood" ID="{3AF4E46C-2E13-42A5-9304-75F4A730CAB0}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Wood" ID="{8A96AC25-49ED-49A0-B4FB-E38DD626665B}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Dirt" ID="{A3468C78-B08F-4151-B5D0-11236E29667F}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Dirt" ID="{F1899F3B-DB7A-4A4C-BE4D-28FF3414E943}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Grass" ID="{A47C5A8C-042F-4EB5-8432-AF58DD4319E3}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Grass" ID="{06119F7D-82D4-4102-99CE-14F18DF4E19D}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Stone" ID="{3200E897-496C-465C-9FA8-18130AA617D0}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Stone" ID="{70C55FAB-0D6C-46BC-8128-22C859CBA4E1}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Leaves" ID="{F1A7CEAE-B4A1-4A5D-B0E7-1F4BDD9BB7AA}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Leaves" ID="{FBD1524C-3D5A-471C-B72D-E050DF1BD8FE}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Barrel" ID="{FAF93CB5-8DB9-460D-89A6-48F44E5AA7C4}"/>
-												<ItemList>
-													<ItemRef Name="BAS_Impact_Sword_SurfaceType_Barrel" ID="{C521E982-A483-46FC-B1B6-74EE7D34C4F8}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
-							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="Dagger" ID="{6C47C02F-69BC-4AD1-A40B-67E6BF088619}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Sword" ID="{61662235-14FC-4087-A350-ED138919ACB3}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Hammer" ID="{F727EB9D-4107-46E0-9970-AE6BBFC26B43}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Pickaxe" ID="{D5BF38B0-0F23-4498-A881-56D8FD702456}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Axe" ID="{992B41C6-054F-456D-AD65-CCA8B36E3C8A}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-							</GroupingInfo>
-						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{8380BA92-E4F4-40A3-9516-C0041EEC9891}" ShortID="846826963">
@@ -7206,291 +7183,384 @@
 						</Folder>
 						<Folder Name="Explore" ID="{6DAD5D65-7F03-42FB-B96F-521034190A81}" ShortID="559785404">
 							<ChildrenList>
-								<Sound Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}" ShortID="284438575">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
+								<SwitchContainer Name="Explore" ID="{A0D493E4-E177-413D-9377-019EF1E34BD0}" ShortID="843501068">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
 										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{8E85E8ED-EAA8-4EAA-8D50-B1BE3F2AB28F}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="394459036"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{8E85E8ED-EAA8-4EAA-8D50-B1BE3F2AB28F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Desert_120BPM_4_4_L8M_P0" ID="{7B0D3194-5491-4B25-B396-0881699E0B90}" ShortID="526974183">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{DF39DD83-753D-4F80-AF61-E204B807D211}" WorkUnitID="{2A955FEA-4A23-4575-AD2A-58A56F647BFF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
 										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Desert_120BPM_4_4_L8M_P0" ID="{BF5B601A-5DF0-42C3-8CE1-88239D9F1A55}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="225791270"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="Music_Regions" ID="{30C034F9-DFE4-4BC6-8C6D-7548CB5E0EA8}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Village" ID="{53481DBE-37BF-446F-ABD9-979361842480}"/>
-												<CustomState Name="" ID="{DB419F2C-B11C-4858-95C8-2B87288F48E9}" ShortID="755171139">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="WwizardHouse" ID="{D1365AE8-C996-4570-B886-DDB6170ECB8D}"/>
-												<CustomState Name="" ID="{16F479BE-AA6E-4C9C-A5EB-7D39F2518511}" ShortID="320880111">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Dungeon" ID="{6A53BCFA-1DB0-4589-886F-703B49091508}"/>
-												<CustomState Name="" ID="{4148BD80-941B-419D-AFB3-5E3FDE83A10B}" ShortID="799617443">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Nowhere" ID="{C1F0619D-5C29-4642-826D-1D218C76B165}"/>
-												<CustomState Name="" ID="{7DF11C9C-727C-4370-B0DC-4A6DB48C8207}" ShortID="369167922">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Desert" ID="{F319CFE6-777B-483D-9F11-B659B803A092}"/>
-												<CustomState Name="" ID="{A8169EA3-B1FD-4AD4-8491-EF7A7D707DB6}" ShortID="214583207"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Cave" ID="{0FF8B4C8-1A64-4CD4-9434-33846A7364EE}"/>
-												<CustomState Name="" ID="{27D47102-C7F7-48E8-98DF-4D19520C6CDB}" ShortID="986983507">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Woodlands" ID="{5BC513DE-436F-4DB4-AB95-73A60385B569}"/>
-												<CustomState Name="" ID="{1B1BB05A-6BD1-431C-8D46-136981E7CDD0}" ShortID="679267088">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Silent" ID="{CDA1B58B-6823-4FDE-BAEA-F6FE805C89B3}"/>
-												<CustomState Name="" ID="{C8B4A5A3-3DB1-4611-94B5-C75A66FB6B0D}" ShortID="469037308">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="Desert_120BPM_4_4_L8M_P0" ID="{BF5B601A-5DF0-42C3-8CE1-88239D9F1A55}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{F24F644E-BC86-4393-8956-FD0A6F84F37E}" ShortID="694670927">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Music_Regions" ID="{30C034F9-DFE4-4BC6-8C6D-7548CB5E0EA8}" WorkUnitID="{2A955FEA-4A23-4575-AD2A-58A56F647BFF}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{DCEBCC89-415B-4997-83DC-7FDD04F9FEFB}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Explore\Dungeon_120BPM_4_4_L8M_P1M.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="329491159"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}" ShortID="284438575">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{8E85E8ED-EAA8-4EAA-8D50-B1BE3F2AB28F}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="394459036"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{8E85E8ED-EAA8-4EAA-8D50-B1BE3F2AB28F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{F24F644E-BC86-4393-8956-FD0A6F84F37E}" ShortID="694670927">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{DCEBCC89-415B-4997-83DC-7FDD04F9FEFB}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Explore\Dungeon_120BPM_4_4_L8M_P1M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="329491159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Regions" ID="{30C034F9-DFE4-4BC6-8C6D-7548CB5E0EA8}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Village" ID="{53481DBE-37BF-446F-ABD9-979361842480}"/>
+														<CustomState Name="" ID="{AC877DCA-0427-427D-A40C-E2A21F2A03D2}" ShortID="788791825"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="WwizardHouse" ID="{D1365AE8-C996-4570-B886-DDB6170ECB8D}"/>
+														<CustomState Name="" ID="{377ED206-C838-436B-BE60-CFEA4BFE2616}" ShortID="459460731"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Dungeon" ID="{6A53BCFA-1DB0-4589-886F-703B49091508}"/>
+														<CustomState Name="" ID="{76BAD07A-182A-4486-A6DC-75F3CDEDFD09}" ShortID="650423737"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Nowhere" ID="{C1F0619D-5C29-4642-826D-1D218C76B165}"/>
+														<CustomState Name="" ID="{F8B6AD1D-0D6A-44CF-8E12-AA03DD8171D1}" ShortID="413914203"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Desert" ID="{F319CFE6-777B-483D-9F11-B659B803A092}"/>
+														<CustomState Name="" ID="{60F38DEC-319C-4198-A28C-68244CE83DAE}" ShortID="786272309"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Cave" ID="{0FF8B4C8-1A64-4CD4-9434-33846A7364EE}"/>
+														<CustomState Name="" ID="{FD4802AA-B02B-4B83-B991-D01E6EC88468}" ShortID="105282348"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Woodlands" ID="{5BC513DE-436F-4DB4-AB95-73A60385B569}"/>
+														<CustomState Name="" ID="{894799DA-84FF-4F40-BABB-163D42F9F752}" ShortID="939947123"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Silent" ID="{CDA1B58B-6823-4FDE-BAEA-F6FE805C89B3}"/>
+														<CustomState Name="" ID="{9955CAD6-B7F2-46DF-ABC6-0407A90106C5}" ShortID="532457481"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{DCEBCC89-415B-4997-83DC-7FDD04F9FEFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Nowhere_120BPM_4_4_L8M_P0" ID="{22DD65E7-0AAC-4C02-ABA6-D485A7D7B9FA}" ShortID="1020496008">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{83DE15D8-B1A6-4900-BD55-E39E72B220D1}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Explore\Nowhere_120BPM_4_4_L8M_P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="731854935"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{83DE15D8-B1A6-4900-BD55-E39E72B220D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{D91AC4F9-A846-441F-80DB-6E889CAFE4B8}" ShortID="342016120">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{6B9B05A8-3D67-45A3-AEE9-31C64C1A2682}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="22756843"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{6B9B05A8-3D67-45A3-AEE9-31C64C1A2682}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{F62F3CE3-6053-48F9-9C3E-B7EA45545CB2}" ShortID="175752759">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{9A71C78C-4200-4592-AAB2-342EA2D3CBC8}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="443046116"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{9A71C78C-4200-4592-AAB2-342EA2D3CBC8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Desert_120BPM_4_4_L8M_P0" ID="{7B0D3194-5491-4B25-B396-0881699E0B90}" ShortID="526974183">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Desert_120BPM_4_4_L8M_P0" ID="{BF5B601A-5DF0-42C3-8CE1-88239D9F1A55}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="225791270"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Regions" ID="{30C034F9-DFE4-4BC6-8C6D-7548CB5E0EA8}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Village" ID="{53481DBE-37BF-446F-ABD9-979361842480}"/>
+														<CustomState Name="" ID="{DB419F2C-B11C-4858-95C8-2B87288F48E9}" ShortID="755171139">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="WwizardHouse" ID="{D1365AE8-C996-4570-B886-DDB6170ECB8D}"/>
+														<CustomState Name="" ID="{16F479BE-AA6E-4C9C-A5EB-7D39F2518511}" ShortID="320880111">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Dungeon" ID="{6A53BCFA-1DB0-4589-886F-703B49091508}"/>
+														<CustomState Name="" ID="{4148BD80-941B-419D-AFB3-5E3FDE83A10B}" ShortID="799617443">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Nowhere" ID="{C1F0619D-5C29-4642-826D-1D218C76B165}"/>
+														<CustomState Name="" ID="{7DF11C9C-727C-4370-B0DC-4A6DB48C8207}" ShortID="369167922">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Desert" ID="{F319CFE6-777B-483D-9F11-B659B803A092}"/>
+														<CustomState Name="" ID="{A8169EA3-B1FD-4AD4-8491-EF7A7D707DB6}" ShortID="214583207"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Cave" ID="{0FF8B4C8-1A64-4CD4-9434-33846A7364EE}"/>
+														<CustomState Name="" ID="{27D47102-C7F7-48E8-98DF-4D19520C6CDB}" ShortID="986983507">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Woodlands" ID="{5BC513DE-436F-4DB4-AB95-73A60385B569}"/>
+														<CustomState Name="" ID="{1B1BB05A-6BD1-431C-8D46-136981E7CDD0}" ShortID="679267088">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Silent" ID="{CDA1B58B-6823-4FDE-BAEA-F6FE805C89B3}"/>
+														<CustomState Name="" ID="{C8B4A5A3-3DB1-4611-94B5-C75A66FB6B0D}" ShortID="469037308">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Desert_120BPM_4_4_L8M_P0" ID="{BF5B601A-5DF0-42C3-8CE1-88239D9F1A55}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Village_120BPM_4_4_L8M_P1M" ID="{3807EF7D-D299-48FD-91DE-BB85CD4A8DA4}" ShortID="556424775">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Village_120BPM_4_4_L8M_P1M" ID="{29F16784-0751-402B-8610-072B9657AC73}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Explore\Village_120BPM_4_4_L8M_P1M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="447985303"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Village_120BPM_4_4_L8M_P1M" ID="{29F16784-0751-402B-8610-072B9657AC73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="Music_Regions" ID="{30C034F9-DFE4-4BC6-8C6D-7548CB5E0EA8}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Village" ID="{53481DBE-37BF-446F-ABD9-979361842480}"/>
-												<CustomState Name="" ID="{AC877DCA-0427-427D-A40C-E2A21F2A03D2}" ShortID="788791825"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="WwizardHouse" ID="{D1365AE8-C996-4570-B886-DDB6170ECB8D}"/>
-												<CustomState Name="" ID="{377ED206-C838-436B-BE60-CFEA4BFE2616}" ShortID="459460731"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Dungeon" ID="{6A53BCFA-1DB0-4589-886F-703B49091508}"/>
-												<CustomState Name="" ID="{76BAD07A-182A-4486-A6DC-75F3CDEDFD09}" ShortID="650423737"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Nowhere" ID="{C1F0619D-5C29-4642-826D-1D218C76B165}"/>
-												<CustomState Name="" ID="{F8B6AD1D-0D6A-44CF-8E12-AA03DD8171D1}" ShortID="413914203"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Desert" ID="{F319CFE6-777B-483D-9F11-B659B803A092}"/>
-												<CustomState Name="" ID="{60F38DEC-319C-4198-A28C-68244CE83DAE}" ShortID="786272309"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Cave" ID="{0FF8B4C8-1A64-4CD4-9434-33846A7364EE}"/>
-												<CustomState Name="" ID="{FD4802AA-B02B-4B83-B991-D01E6EC88468}" ShortID="105282348"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Woodlands" ID="{5BC513DE-436F-4DB4-AB95-73A60385B569}"/>
-												<CustomState Name="" ID="{894799DA-84FF-4F40-BABB-163D42F9F752}" ShortID="939947123"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Silent" ID="{CDA1B58B-6823-4FDE-BAEA-F6FE805C89B3}"/>
-												<CustomState Name="" ID="{9955CAD6-B7F2-46DF-ABC6-0407A90106C5}" ShortID="532457481"/>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{DCEBCC89-415B-4997-83DC-7FDD04F9FEFB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Nowhere_120BPM_4_4_L8M_P0" ID="{22DD65E7-0AAC-4C02-ABA6-D485A7D7B9FA}" ShortID="1020496008">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{83DE15D8-B1A6-4900-BD55-E39E72B220D1}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Explore\Nowhere_120BPM_4_4_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="731854935"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{83DE15D8-B1A6-4900-BD55-E39E72B220D1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Village_120BPM_4_4_L8M_P1M" ID="{3807EF7D-D299-48FD-91DE-BB85CD4A8DA4}" ShortID="556424775">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Village_120BPM_4_4_L8M_P1M" ID="{29F16784-0751-402B-8610-072B9657AC73}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Explore\Village_120BPM_4_4_L8M_P1M.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="447985303"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Village_120BPM_4_4_L8M_P1M" ID="{29F16784-0751-402B-8610-072B9657AC73}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{D91AC4F9-A846-441F-80DB-6E889CAFE4B8}" ShortID="342016120">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{6B9B05A8-3D67-45A3-AEE9-31C64C1A2682}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="22756843"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{6B9B05A8-3D67-45A3-AEE9-31C64C1A2682}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{F62F3CE3-6053-48F9-9C3E-B7EA45545CB2}" ShortID="175752759">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6AF6AFEC-923C-49D6-B1A3-5971BBC48861}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3559EED2-767D-4858-AFC6-5EE5F0FAD677}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{9A71C78C-4200-4592-AAB2-342EA2D3CBC8}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="443046116"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{9A71C78C-4200-4592-AAB2-342EA2D3CBC8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{F24F644E-BC86-4393-8956-FD0A6F84F37E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Village_120BPM_4_4_L8M_P1M" ID="{3807EF7D-D299-48FD-91DE-BB85CD4A8DA4}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Desert_120BPM_4_4_L8M_P0" ID="{7B0D3194-5491-4B25-B396-0881699E0B90}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{F62F3CE3-6053-48F9-9C3E-B7EA45545CB2}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{22DD65E7-0AAC-4C02-ABA6-D485A7D7B9FA}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{D91AC4F9-A846-441F-80DB-6E889CAFE4B8}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Silent" ID="{CDA1B58B-6823-4FDE-BAEA-F6FE805C89B3}"/>
+												<ItemList>
+													<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Nowhere" ID="{C1F0619D-5C29-4642-826D-1D218C76B165}"/>
+												<ItemList>
+													<ItemRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{22DD65E7-0AAC-4C02-ABA6-D485A7D7B9FA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Village" ID="{53481DBE-37BF-446F-ABD9-979361842480}"/>
+												<ItemList>
+													<ItemRef Name="Village_120BPM_4_4_L8M_P1M" ID="{3807EF7D-D299-48FD-91DE-BB85CD4A8DA4}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Cave" ID="{0FF8B4C8-1A64-4CD4-9434-33846A7364EE}"/>
+												<ItemList>
+													<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Woodlands" ID="{5BC513DE-436F-4DB4-AB95-73A60385B569}"/>
+												<ItemList>
+													<ItemRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{D91AC4F9-A846-441F-80DB-6E889CAFE4B8}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Desert" ID="{F319CFE6-777B-483D-9F11-B659B803A092}"/>
+												<ItemList>
+													<ItemRef Name="Desert_120BPM_4_4_L8M_P0" ID="{7B0D3194-5491-4B25-B396-0881699E0B90}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="WwizardHouse" ID="{D1365AE8-C996-4570-B886-DDB6170ECB8D}"/>
+												<ItemList>
+													<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dungeon" ID="{6A53BCFA-1DB0-4589-886F-703B49091508}"/>
+												<ItemList>
+													<ItemRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{F24F644E-BC86-4393-8956-FD0A6F84F37E}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Stingers" ID="{87A6485B-04BF-45DD-A1D2-3E40620EA9B1}" ShortID="148709794">
