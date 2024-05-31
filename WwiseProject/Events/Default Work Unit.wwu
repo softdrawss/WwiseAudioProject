@@ -287,7 +287,59 @@
 					<ChildrenList>
 						<Event Name="Music_TitleScreen" ID="{CE8F767A-6672-4807-A7E5-1A29696BC193}"/>
 						<Event Name="Music_Credits" ID="{0F993D02-25E8-4D77-93BC-26B22661926E}"/>
-						<Event Name="Music_Region" ID="{7B8CAF97-135D-4A99-A0B1-EF4347A1EF14}"/>
+						<Event Name="Music_Region" ID="{7B8CAF97-135D-4A99-A0B1-EF4347A1EF14}">
+							<ChildrenList>
+								<Action Name="" ID="{6025F409-A2F2-4EFB-80DA-B75415C88B13}" ShortID="591155845">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{2BB92464-73AB-431C-8C8B-40F90DD5477E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0FD5A8B8-1680-4CE4-8B58-8D763167535D}" ShortID="897300371">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desert_120BPM_4_4_L8M_P0" ID="{7B0D3194-5491-4B25-B396-0881699E0B90}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D8F49C00-2BB6-425A-9B78-8584A9257401}" ShortID="674016500">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{F24F644E-BC86-4393-8956-FD0A6F84F37E}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{96A9B932-A6E9-40AA-9278-12AC16B3EEB0}" ShortID="541215119">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{22DD65E7-0AAC-4C02-ABA6-D485A7D7B9FA}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EFC4D472-A6E3-4567-AAD8-58DB07D0117E}" ShortID="911988623">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Village_120BPM_4_4_L8M_P1M" ID="{3807EF7D-D299-48FD-91DE-BB85CD4A8DA4}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AFEF3FB8-4A26-4BF8-BC5A-0542083E5F58}" ShortID="729791508">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{D91AC4F9-A846-441F-80DB-6E889CAFE4B8}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{34F1969E-0152-4C57-A4AC-0E8DC9AD9FD9}" ShortID="949858621">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{F62F3CE3-6053-48F9-9C3E-B7EA45545CB2}" WorkUnitID="{6F149292-1345-4EF2-A44A-FD292B4A3F0F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Voice Over" ID="{D16C92BB-F563-4ED9-AA90-E9D016C96CDF}" ShortID="922871293">
